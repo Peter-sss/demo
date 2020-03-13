@@ -1,0 +1,539 @@
+.w {
+    width: 1200px;
+    // height: 1000px;
+    // border: 1px solid #000;
+    margin: 0 auto;
+}
+
+// 顶部定位效果
+.fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+
+.relative {
+    position: relative;
+}
+
+// 顶部部分
+.top_bar {
+    width: 100%;
+    height: 150px;
+    background-color: rgb(14, 14, 15);
+
+    &:after {
+        content: "";
+        width: 100%;
+        height: 1px;
+        background-color: rgb(34, 34, 34);
+        position: absolute;
+        left: 0px;
+        top: 100px;
+
+    }
+
+    .search {
+        height: 100px;
+        background-color: rgb(14, 14, 15);
+        padding-top: 40px;
+
+        a {
+            margin-right: 60px;
+            color: #fff;
+            margin-top: 6px;
+            font-size: 14px;
+        }
+
+        input {
+            margin-right: 40px;
+            width: 200px;
+            height: 30px;
+            border-radius: 15px;
+            outline: none;
+            background-color: rgb(36, 36, 36);
+            color: rgb(230, 215, 215);
+            border: none;
+            padding: 0 30px;
+        }
+    }
+
+    .nav {
+        height: 50px;
+        background-color: rgb(14, 14, 15);
+        border-top: 1px solid rgb(34, 34, 34);
+
+        ul {
+            height: 100%;
+            padding-left: 40px;
+
+            li {
+                float: left;
+                height: 100%;
+                line-height: 49px;
+                margin: 0 20px;
+
+                a {
+                    color: rgb(150, 150, 150);
+
+                    &:hover {
+                        color: #fff;
+                    }
+                }
+            }
+        }
+
+        .all_prduct {
+            color: #fff;
+            font-size: 14px;
+            height: 100%;
+            line-height: 49px;
+            padding-right: 90px;
+        }
+    }
+}
+
+// 点击有惊喜
+.surprise {
+    width: 200px;
+    border-radius: 30px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    opacity: .2;
+}
+
+// 侧边栏
+.aside {
+    position: absolute;
+    top: 100px;
+    z-index: 99;
+    width: 100px;
+
+}
+
+.aside_left {
+    left: 0;
+}
+
+.aside_right {
+    right: 0;
+}
+
+// 轮播图部分
+.banner {
+    position: relative;
+    cursor: pointer;
+
+    .banner_wraper {
+        width: 1200px;
+        height: 270px;
+        overflow: hidden;
+
+        ul {
+            width: 3000px;
+            overflow: hidden;
+
+            li {
+                float: left;
+            }
+        }
+
+        img {
+            width: 1200px;
+        }
+    }
+
+
+}
+
+//配置轮播图
+// 配置小圆点的位置
+.swiper-container-horizontal>.swiper-pagination-bullets,
+.swiper-pagination-custom,
+.swiper-pagination-fraction {
+    bottom: 32px;
+}
+
+// 配置小圆点的颜色
+.swiper-pagination-bullet-active {
+    background-color: rgb(255, 201, 51);
+}
+
+// 配置小圆点的形状
+.swiper-pagination-bullet {
+    width: 30px;
+    border-radius: 6px;
+}
+
+// 主体部分
+
+.mall_body {
+    // width: 1200px;
+    height: 2670px;
+    background-color: #fff;
+    margin-top: 30px;
+    padding: 35px;
+    border-radius: 8px;
+
+
+    .good_goods,
+    .degital_square,
+    .new_goods,
+    .daily_part {
+        height: 650px;
+        margin-top: 2px;
+        padding-top: 20px;
+    }
+
+    .good_goods,
+    .degital_square,
+    .new_goods,
+    .daily_part {
+        width: 100%;
+
+        h2 {
+            font-size: 34px;
+            display: inline;
+            margin-right: 20px;
+        }
+
+        span {
+            display: inline;
+        }
+
+        .more {
+            float: right;
+            color: #000;
+            font-size: 20px;
+            margin-top: 10px;
+        }
+
+        .tit_pic {
+            width: 100%;
+            margin-top: 10px;
+            margin-bottom: 30px;
+        }
+
+        ul {
+            li {
+                width: 245px;
+                height: 300px;
+                float: left;
+                margin-right: 50px;
+                border: 1px solid rgb(238, 238, 238);
+                position: relative;
+                overflow: hidden;
+                // transition-duration: 1s;
+
+                &:last-child {
+                    margin-right: 0;
+                    float: right;
+                }
+
+                //鼠标悬浮特效
+                &:hover {
+                    // box-shadow: 0px 19px 25px #ccc;
+                    -webkit-box-shadow: 0 15px 30px rgba(0, 0, 0, .3);
+                    box-shadow: 0 15px 30px rgba(0, 0, 0, .3);
+                    -webkit-transform: translate3d(0, -2px, 0);
+                    transform: translate3d(0, -2px, 0);
+                }
+
+                div {
+                    width: 40px;
+                    height: 234px;
+                    // background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1), rgba(255, 255, 255, 0));
+                    transform: skewX(-45deg);
+                    position: absolute;
+                    left: -150px;
+                    top: 0px;
+                }
+
+                &:hover div {
+                    left: 560px;
+                    transition: all 2s;
+                }
+
+                a {
+                    float: left;
+                    width: 100%;
+                    height: 80%;
+                    font-size: 14px;
+
+                    .about {
+                        text-align: center;
+                        color: #000;
+                        margin: 10px 0 10px 0;
+                    }
+
+                    .price {
+                        text-align: center;
+                        color: rgb(249, 124, 132);
+
+                    }
+                }
+
+                img {
+                    width: 100%;
+                    margin-top: 0;
+                }
+            }
+        }
+    }
+}
+
+// 为了不影响拖拽效果，单独设置
+.good_goods,
+.degital_square,
+
+.daily_part {
+    ul {
+        li {
+            transition-duration: 1s;
+        }
+    }
+}
+
+// 日常专区 点击显示大图
+.showImg {
+    width: 500px;
+    position: absolute;
+    left: 50%;
+    // top: 50%;
+    transform: translateX(-50%);
+    z-index: 999;
+}
+
+.showImgBox {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .5);
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 999;
+    display: none;
+
+    i {
+        font-size: 56px;
+        opacity: 1;
+        color: #fff;
+        position: absolute;
+        top: 0;
+        right: 0;
+        transition: all .5s;
+
+        &:hover {
+            transform: rotate(180deg);
+        }
+    }
+}
+
+a:focus,
+a:hover {
+    color: #f97c84;
+    text-decoration: none !important;
+}
+
+// 限定好物  
+// 手风琴
+.accordion {
+    width: 1200px;
+    height: 218px;
+    // background-color: pink;
+    margin-bottom: 20px;
+
+    .gift {
+        height: 100%;
+        width: 260px;
+        background-color: rgba(255, 0, 221, 0.397);
+        border-radius: 10px;
+        padding: 70px 50px 0 0;
+        // display: inline-block;
+
+        p {
+            font-size: 20px;
+            color: #fff;
+            text-align: right;
+        }
+    }
+
+    .wraper {
+        width: 900px;
+        height: 100%;
+
+        div {
+            width: 145px;
+            height: 100%;
+            // background-color: yellow;
+            float: left;
+            background-repeat: no-repeat;
+            // background-size: 100%;
+            // padding-left: 145px;
+            overflow: hidden;
+
+            img {
+                width: 240px;
+                margin: 30px 0 0 152px;
+            }
+
+            p {
+                margin-left: 152px;
+            }
+        }
+
+        .slide1 {
+            background-image: url(../images/lv1.jpg);
+        }
+
+        .slide2 {
+            background-image: url(../images/lv2.jpg);
+        }
+
+        .slide3 {
+            background-image: url(../images/lv3.jpg);
+        }
+
+        .slide4 {
+            background-image: url(../images/lv4.jpg);
+        }
+
+        .slide5 {
+            background-image: url(../images/lv5.jpg);
+        }
+
+        .slide6 {
+            background-image: url(../images/lv6.jpg);
+        }
+    }
+}
+
+// 新品上架
+// 拖拽
+.mall_body .new_goods {
+    position: relative;
+
+    ul {
+        li {
+            position: absolute;
+            background-color: #fff;
+            height: 310px;
+            cursor: move;
+
+            &:nth-child(1) {
+                left: 0px;
+            }
+
+            &:nth-child(2) {
+                left: 280px
+            }
+
+            &:nth-child(3) {
+                right: 253px;
+            }
+
+            &:nth-child(4) {
+                right: 0px;
+            }
+        }
+    }
+}
+
+// 回到顶部
+.backTop {
+    width: 50px;
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    z-index: 999;
+    border-radius: 10px;
+}
+
+
+
+// 底部
+.footer {
+    height: 400px;
+    margin-top: 30px;
+    background-color: rgb(27, 27, 27);
+
+    .footer_top {
+        height: 247px;
+        padding-top: 40px;
+        border-bottom: 1px solid rgb(34, 34, 34);
+
+        img {
+            width: 20%;
+            margin-right: 30px;
+        }
+
+        .link {
+            width: 30%;
+            height: 158px;
+            // background-color: yellow;
+            border-left: 1px solid rgb(34, 34, 34);
+            border-right: 1px solid rgb(34, 34, 34);
+
+            ul {
+                li {
+                    float: left;
+                    width: 50%;
+                    height: 60px;
+                    text-align: center;
+
+                    a {
+                        color: rgb(168, 168, 168);
+                        line-height: 60px;
+                    }
+
+                }
+            }
+        }
+
+        .code {
+            width: 47%;
+            height: 200px;
+            // background-color: red;
+            padding-left: 50px;
+
+            ul {
+                li {
+                    // background-color: pink;
+                    float: left;
+                    width: 100px;
+                    height: 100px;
+                    margin-right: 107px;
+                    text-align: center;
+
+                    &:last-child {
+                        float: right;
+                        margin-right: 0;
+                    }
+
+                    img {
+                        margin-bottom: 20px;
+                        width: 100%;
+                    }
+
+                    p {
+                        color: #fff;
+                        font-size: 16px;
+                    }
+                }
+            }
+
+        }
+    }
+
+    .footer_bottom {
+        padding: 30px 50px 0 50px;
+        text-align: center;
+
+        p {
+            color: rgb(168, 168, 168);
+        }
+    }
+}

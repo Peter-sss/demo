@@ -1,0 +1,1131 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script>var d0 = new Date();</script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="gb2312" />
+  <meta name="author" content="Tencent-TGideas" />
+  <meta name="robots" content="all" />
+  <meta name="Copyright" content="Tencent" />
+  <meta name="Description" content="《剑灵》官方网站。剑灵凭借完美的视觉表现力，电影版的剧情体验，深厚的东方文化底蕴，自由灵活的战斗体验，成为突破传统、引领潮流的最受期待网游。" />
+  <meta name="Keywords" content="剑灵，剑灵官网，ncsoft，剑灵剑士觉醒，剑灵剑士第三派系觉醒，剑灵剑士第三派系，剑灵剑士御剑，剑灵剑士御剑觉醒，剑灵测试，BNS，剑灵OL，剑灵职业，剑灵种族，剑灵视频，剑灵图片，剑灵新闻，刀魂，blade&soul，bladeandsoul,blade_soul,剑灵客户端下载，韩游，最期待网游" />
+  <title>剑灵官方网站-腾讯游戏</title>
+<script>
+var au=navigator.userAgent.toLowerCase();
+(function(){var a=navigator.userAgent;if(-1!=a.indexOf("iPhone")||-1!=a.indexOf("iPad")||-1!=a.indexOf("iPod")||-1!=a.indexOf("Android")){a=document.referrer;if(-1<a.indexOf("baidu.com")||-1<a.indexOf("sogou.com")||-1<a.indexOf("haosou.com")||-1<a.indexOf("hao76.com"))if(a=void 0,window.sessionStorage)sessionStorage.setItem("channel","seo");else{var a=a||0,b="";0!=a&&(b=new Date,b.setTime(b.getTime()+1E3*a),b="; expires="+b.toGMTString());document.cookie="channel="+escape("seo")+b+"; path=/"}self.location="/m/"}})();
+</script>
+<!--页面设计：swhyzhang | 页面制作：troykang | 创建:2016-02-23 | 团队博客：tgideas.qq.com/-->
+<link rel="dns-prefetch" href="//ossweb-img.qq.com">
+<style>
+/* Reset*/
+body,div,h1,h2,h3,h4,h5,h6,form,img,ul,ol,li,dl,dt,dd,p,tr,th,td{margin:0;padding:0;}
+body{font:12px/1.5 '微软雅黑',tahoma,'\5b8b\4f53',sans-serif;padding-top:42px;color:#000;min-width:1000px;}
+li{list-style:none;}
+em,i{font-style:normal;}
+h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}
+img{border:0;vertical-align:top;}
+a{color:#777986;text-decoration:none;outline:none;}
+a:hover{color:#ee0000;}
+.clearfix:after{visibility:hidden;display:block;font-size:0;content:" ";clear:both;height:0;}
+.clearfix{*zoom:1;}
+.pr{position:relative;}
+.pa{position:absolute;}
+.ti{text-indent:-999em;}
+.hid{display:none;}
+.underline{text-decoration:underline;}
+iframe{position:absolute;}
+/*rotate*/
+@-webkit-keyframes rotate { 0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); } }
+@-moz-keyframes rotate { 0% { -moz-transform: rotate(0deg); }
+  100% { -moz-transform: rotate(360deg); } }
+@keyframes rotate { 0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); } }
+
+/*Bg Reset*/
+.spr{background:url(//ossweb-img.qq.com/images/bns/web201407/index/0113/spr.png) no-repeat;}
+.btns{background:url(//ossweb-img.qq.com/images/bns/web201407/index/0722/btns.jpg) no-repeat;}
+/*simple++*/
+.wrap{/*background:url(//ossweb-img.qq.com/images/bns/web201506/index/180710/bg1.jpg) center 0 no-repeat;*/z-index:100;position:relative;overflow:hidden;}
+.wrap-fixed{margin-top:116px;}
+.main{position:relative;width:100%;height:770px;margin:0 auto;/*background:url(//ossweb-img.qq.com/images/bns/web201506/index/180710/bg1.jpg) center 0 no-repeat;*/overflow:hidden;z-index:100;}
+.parallax-wrap{position: absolute;top: 0;left: 0;width: 100%;height: 100%;}
+.move-bg{position: absolute;/*left: -5%;top: -2%;top: -3%\9;width: 110%;height: 103%;*/left: 0;top: 0;width: 100%;height: 100%;background:url(//bns.qq.com/web201506/ossweb-img/verson/bg.jpg) no-repeat;background-size: cover;background-position: 50% 100%;}
+.move-mask{position: absolute;top: 0;left: 50%;margin-left:-960px;width: 1920px;height: 100%;background:url(//bns.qq.com/web201506/ossweb-img/verson/bg-mask.png) no-repeat;}
+.content{background:#e9e8e5;position:relative;z-index:230;}
+.con-main{margin:0 auto;width:1000px;overflow:hidden;}
+.slogan-box{position: absolute;top: 0;left: 0;width: 100%;height: 100%;z-index: 101;}
+.slogan{position: absolute;top: 138px;left: 50%;margin-left: -450px;width: 598px;height: 217px;}
+.curr-version{position: absolute;top: 0;left: 0;width: 598px;height: 217px;z-index: 101;background: url(//bns.qq.com/web201506/ossweb-img/verson/slogan.png) no-repeat;-webkit-animation: scale2 .7s ease-in-out 0s both;animation: scale2 .7s ease-in-out 0s both;}
+.video-btn{position: absolute;top: 160px;left: 50%;margin-left: 13px;width: 99px;height: 87px;z-index: 101;-webkit-animation: fadeIn .6s ease-in-out .5s both;animation: fadeIn .6s ease-in-out .5s both;background: url(//bns.qq.com/web201506/ossweb-img/verson/video-btn.png) no-repeat;}
+.video-btn:hover{-webkit-filter:brightness(1.3);filter:brightness(1.3);}
+.person1{position:absolute;top:256px;left:50%;margin-left:-90px;-webkit-animation: bounceIn .8s .2s both;animation: bounceIn .8s .2s both;}
+.person2{position:absolute;top:67px;left:50%;margin-left:-48px;-webkit-animation: fadeInLeft .6s .4s ease both;animation: fadeInLeft .6s .4s ease both;}
+.person3{position:absolute;top:-26px;left:50%;margin-left:58px;-webkit-animation: fadeInRight .6s .4s ease both;animation: fadeInRight .6s .4s ease both;}
+@-webkit-keyframes bounceIn {
+  from, 20%, 40%, 60%, 80%, to {
+    -webkit-animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+            animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+  }
+  0% {
+    opacity: 0;
+    -webkit-transform: scale3d(.3, .3, .3);
+            transform: scale3d(.3, .3, .3);
+  }
+  20% {
+    -webkit-transform: scale3d(1.1, 1.1, 1.1);
+            transform: scale3d(1.1, 1.1, 1.1);
+  }
+  40% {
+    -webkit-transform: scale3d(.9, .9, .9);
+            transform: scale3d(.9, .9, .9);
+  }
+  60% {
+    opacity: 1;
+    -webkit-transform: scale3d(1.03, 1.03, 1.03);
+            transform: scale3d(1.03, 1.03, 1.03);
+  }
+  80% {
+    -webkit-transform: scale3d(.97, .97, .97);
+            transform: scale3d(.97, .97, .97);
+  }
+  to {
+    opacity: 1;
+    -webkit-transform: scale3d(1, 1, 1);
+            transform: scale3d(1, 1, 1);
+  }
+}
+@keyframes bounceIn {
+  from, 20%, 40%, 60%, 80%, to {
+    -webkit-animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+            animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+  }
+  0% {
+    opacity: 0;
+    -webkit-transform: scale3d(.3, .3, .3);
+            transform: scale3d(.3, .3, .3);
+  }
+  20% {
+    -webkit-transform: scale3d(1.1, 1.1, 1.1);
+            transform: scale3d(1.1, 1.1, 1.1);
+  }
+  40% {
+    -webkit-transform: scale3d(.9, .9, .9);
+            transform: scale3d(.9, .9, .9);
+  }
+  60% {
+    opacity: 1;
+    -webkit-transform: scale3d(1.03, 1.03, 1.03);
+            transform: scale3d(1.03, 1.03, 1.03);
+  }
+  80% {
+    -webkit-transform: scale3d(.97, .97, .97);
+            transform: scale3d(.97, .97, .97);
+  }
+  to {
+    opacity: 1;
+    -webkit-transform: scale3d(1, 1, 1);
+            transform: scale3d(1, 1, 1);
+  }
+}
+@keyframes fadeInLeft{
+0%{opacity:0;transform:translateX(-40px);-webkit-transform:translateX(-40px)}
+100%{opacity:1;transform:translateX(0);-webkit-transform:translateX(0)}
+}
+@-webkit-keyframes fadeInLeft{
+0%{opacity:0;transform:translateX(-40px);-webkit-transform:translateX(-40px)}
+100%{opacity:1;transform:translateX(0);-webkit-transform:translateX(0)}
+}
+@keyframes fadeInRight{
+0%{opacity:0;transform:translateX(40px);-webkit-transform:translateX(40px)}
+100%{opacity:1;transform:translateX(0);-webkit-transform:translateX(0)}
+}
+@-webkit-keyframes fadeInRight{
+0%{opacity:0;transform:translateX(40px);-webkit-transform:translateX(40px)}
+100%{opacity:1;transform:translateX(0);-webkit-transform:translateX(0)}
+}
+    @-webkit-keyframes anim1{
+      0%{opacity: 0;filter:alpha(opacity=0);-webkit-transform: translate3d(800px,-400px,0);}
+      100%{opacity: 1;filter:alpha(opacity=100);-webkit-transform: translate3d(0,0,0);}
+    }
+    @keyframes anim1{
+      0%{opacity: 0;filter:alpha(opacity=0);transform: translate3d(800px,-400px,0);}
+      100%{opacity: 1;filter:alpha(opacity=100);transform: translate3d(0,0,0);}
+    }
+    @-webkit-keyframes anim2{
+      0%{opacity: 0;filter:alpha(opacity=0);-webkit-transform: translate3d(800px,-200px,0);}
+      100%{opacity: 1;filter:alpha(opacity=100);-webkit-transform: translate3d(0,0,0);}
+    }
+    @keyframes anim2{
+      0%{opacity: 0;filter:alpha(opacity=0);transform: translate3d(800px,-200px,0);}
+      100%{opacity: 1;filter:alpha(opacity=100);transform: translate3d(0,0,0);}
+    }
+    @-webkit-keyframes anim3{
+      0%{opacity: 0;filter:alpha(opacity=0);-webkit-transform: translate3d(1600px,-200px,0);}
+      100%{opacity: 1;filter:alpha(opacity=100);-webkit-transform: translate3d(0,0,0);}
+    }
+    @keyframes anim3{
+      0%{opacity: 0;filter:alpha(opacity=0);transform: translate3d(1600px,-200px,0);}
+      100%{opacity: 1;filter:alpha(opacity=100);transform: translate3d(0,0,0);}
+    }
+	@-webkit-keyframes fadeIn{
+		0%{opacity:0;}
+		100%{opacity:1;}
+	}
+	@keyframes fadeIn{
+		0%{opacity:0;}
+		100%{opacity:1;}
+	}
+	@-webkit-keyframes scale2{
+		0%{-webkit-transform:scale(.3);opacity: 0;}
+		50%{-webkit-transform:scale(1.05);opacity: 1;}
+		70%{-webkit-transform:scale(.9);}
+		100%{-webkit-transform:scale(1);}
+	}
+	@keyframes scale2{
+		0%{transform:scale(.3);opacity: 0;}
+		50%{transform:scale(1.05);opacity: 1;}
+		70%{transform:scale(.9);}
+		100%{transform:scale(1);}
+	}
+/*simple--*/ 
+/*complex++*/
+    	body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td{margin:0;padding:0}
+        table{border-collapse:collapse;border-spacing:0}
+        fieldset,img{border:0}
+        address,caption,cite,code,dfn,em,strong,th,var{font-style:normal;font-weight:normal}
+        ol,ul{list-style:none}
+        caption,th{text-align:left}
+        h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal}
+        q:before,q:after{content:''}
+        abbr,acronym{border:0;font-variant:normal}
+        sup{vertical-align:text-top}
+        sub{vertical-align:text-bottom}
+        input,textarea,select{font-family:inherit;font-size:inherit;font-weight:inherit}
+        input,textarea,select{*font-size:100%}
+        a {color: #FFFFFF; text-decoration:none;}
+        a:hover {text-decoration: none;opacity: 0.9;filter: progid:DXImageTransform.Microsoft.Alpha(opacity=90);}
+        .clear{clear:both;visibility:hidden;height:0;line-height:0;font-size:0;}
+        .clearfix:after{clear:both;content:".";height:0;display:block;visibility:hidden;}
+        .clearfix{*zoom:1;}
+        .ti{text-indent:-999em;}
+        #footer_ieg{position: relative;}
+        .wrap_ieg{font:12px verdana;text-align:center;padding:40px 0;background:#000;}
+        .wrap_ieg,.wrap_ieg a{color:#a8a8a8;}
+        .wrap_ieg .e{font-size:10px;padding:3px 0;-webkit-text-size-adjust:none;}
+        .foot{font-size: 12px;text-align: center;padding: 20px 0;background: #000;color: #fff;}
+        .foot a{color: #fff;text-decoration: none;}
+        .main-act{width:100%;font-family:"微软雅黑";color: #a19891;font-size:16px; position:relative; min-width:1000px;}
+
+
+        .container{background: url("//game.gtimg.cn/images/bns/cp/a20190522qscs/bg.jpg") top center no-repeat; height: 1750px; position: relative; margin: 0 auto;}
+        .event{width: 1000px; margin: 0 auto;}
+
+        .slogan-act{padding-top: 154px; position: relative; overflow: hidden;}
+        .slogan-img{
+            -webkit-animation:bounceInDown 1s .2s ease both;
+            -moz-animation:bounceInDown 1s .2s ease both;}
+        @-webkit-keyframes bounceInDown{
+            0%{opacity:0;
+                -webkit-transform:translateY(-2000px)}
+            60%{opacity:1;
+                -webkit-transform:translateY(30px)}
+            80%{-webkit-transform:translateY(-10px)}
+            100%{-webkit-transform:translateY(0)}
+        }
+        @-moz-keyframes bounceInDown{
+            0%{opacity:0;
+                -moz-transform:translateY(-2000px)}
+            60%{opacity:1;
+                -moz-transform:translateY(30px)}
+            80%{-moz-transform:translateY(-10px)}
+            100%{-moz-transform:translateY(0)}
+        }
+        .slogan-img01{margin-left: 22px; margin-top: 33px;}
+
+        .slogan-img01{
+            -webkit-animation:bounceInUp 1s .2s ease both;
+            -moz-animation:bounceInUp 1s .2s ease both;}
+        @-webkit-keyframes bounceInUp{
+            0%{opacity:0;
+                -webkit-transform:translateY(2000px)}
+            60%{opacity:1;
+                -webkit-transform:translateY(-30px)}
+            80%{-webkit-transform:translateY(10px)}
+            100%{-webkit-transform:translateY(0)}
+        }
+        @-moz-keyframes bounceInUp{
+            0%{opacity:0;
+                -moz-transform:translateY(2000px)}
+            60%{opacity:1;
+                -moz-transform:translateY(-30px)}
+            80%{-moz-transform:translateY(10px)}
+            100%{-moz-transform:translateY(0)}
+        }
+
+        .btn-player{position: absolute; background: url("//game.gtimg.cn/images/bns/cp/a20190522qscs/sp.png") -528px -36px no-repeat; width: 52px; height: 60px; display: block; bottom: 69px; left: 290px;}
+
+        .btn-player{
+            -webkit-animation:fadeIn 1s 1.2s ease both;
+            -moz-animation:fadeIn 1s 1.2s ease both;}
+        @-webkit-keyframes fadeIn {
+        0%{opacity:0}
+        100%{opacity:1}
+        }
+        @-moz-keyframes fadeIn{
+        0%{opacity:0}
+        100%{opacity:1}
+        }
+
+        .btn-box{margin-top: 70px;}
+        .btn-box a{ width: 195px; height: 52px; display: inline-block; margin: 0 8.5px 0 0;}
+        .btn-box .btn-down{background: url("//game.gtimg.cn/images/bns/cp/a20190522qscs/sp.png") -224px -230px no-repeat;}
+        .btn-box .btn-zt{background: url("//game.gtimg.cn/images/bns/cp/a20190522qscs/sp.png") -435px -230px no-repeat;}
+        .btn-box .btn-gl{background: url("//game.gtimg.cn/images/bns/cp/a20190522qscs/sp.png") -646px -230px no-repeat;}
+
+        .btn-box .btn-down.on{background: url("//game.gtimg.cn/images/bns/cp/a20190522qscs/sp.png") -224px -166px no-repeat;}
+        .btn-box .btn-zt.on{background: url("//game.gtimg.cn/images/bns/cp/a20190522qscs/sp.png") -435px -166px no-repeat;}
+        .btn-box .btn-gl.on{background: url("//game.gtimg.cn/images/bns/cp/a20190522qscs/sp.png") -646px -166px no-repeat;}
+
+        .btn-box .btn-down:hover{background: url("//game.gtimg.cn/images/bns/cp/a20190522qscs/sp.png") -224px -166px no-repeat;}
+        .btn-box .btn-zt:hover{background: url("//game.gtimg.cn/images/bns/cp/a20190522qscs/sp.png") -435px -166px no-repeat;}
+        .btn-box .btn-gl:hover{background: url("//game.gtimg.cn/images/bns/cp/a20190522qscs/sp.png") -646px -166px no-repeat;}
+
+        .event01{margin-top: 116px;}
+        .props-list li{float: left; width: 318px; height: 248px; padding-top: 129px;}
+        .props-list .props01{background: url("//game.gtimg.cn/images/bns/cp/a20190522qscs/sp.png") 0 -914px no-repeat; margin-right: 11.5px;}
+        .props-list .props02{background: url("//game.gtimg.cn/images/bns/cp/a20190522qscs/sp.png") -341px -914px no-repeat; margin: 0 11.5px;}
+        .props-list .props03{background: url("//game.gtimg.cn/images/bns/cp/a20190522qscs/sp.png") -682px -914px no-repeat;margin-left: 11.5px;}
+
+        .props-list .imgs{width: 84px; height: 87px; float:left; margin: 0 11px;}
+        .props-list .imgs p{text-align: center; font-size: 12px; color: #969696;}
+        .props-list .imgs .tits{width: 97px; margin-left: -5px;}
+        .props-list .imgs p span{color: #bdbb90;}
+        .props-list .btn-lq{ background: url("//game.gtimg.cn/images/bns/cp/a20190522qscs/sp.png") -238px -330px no-repeat; width: 177px; height: 48px; display: block; margin:66px auto 0; cursor: pointer;}
+        .props-list .btn-lq.on{ background: url("//game.gtimg.cn/images/bns/cp/a20190522qscs/sp.png") -443px -330px no-repeat;}
+
+        .event02{margin-top: 134px;}
+        .nav-list{width: 1104px; margin: 0 auto;}
+        .nav-list li{width:118px;height: 380px; float: left; margin: 0 29px 0 0; position: relative;}
+        .nav-list li a{display: block; width:118px;height: 380px; position: relative;  cursor: pointer;}
+        .nav-list .nav01{background: url("//game.gtimg.cn/images/bns/cp/a20190522qscs/sp.png") -1px -503px no-repeat; animation:downUp 1.8s linear infinite; -webkit-animation:downUp 1.8s linear infinite; -moz-animation:downUp 1.8s linear infinite;}
+        .nav-list .nav02{background: url("//game.gtimg.cn/images/bns/cp/a20190522qscs/sp.png") -148px -503px no-repeat; animation:downUp 1.8s .9s linear infinite; -webkit-animation:downUp 1.8s .9s linear infinite; -moz-animation:downUp 1.8s .9s linear infinite;}
+        .nav-list .nav03{background: url("//game.gtimg.cn/images/bns/cp/a20190522qscs/sp.png") -295px -503px no-repeat;animation:downUp 1.8s linear infinite; -webkit-animation:downUp 1.8s linear infinite; -moz-animation:downUp 1.8s linear infinite;}
+        .nav-list .nav04{background: url("//game.gtimg.cn/images/bns/cp/a20190522qscs/sp.png") -442px -503px no-repeat;animation:downUp 1.8s .9s linear infinite; -webkit-animation:downUp 1.8s .9s linear infinite; -moz-animation:downUp 1.8s .9s linear infinite;}
+        .nav-list .nav05{background: url("//game.gtimg.cn/images/bns/cp/a20190522qscs/sp.png") -589px -503px no-repeat;animation:downUp 1.8s linear infinite; -webkit-animation:downUp 1.8s linear infinite; -moz-animation:downUp 1.8s linear infinite;}
+        .nav-list .nav06{background: url("//game.gtimg.cn/images/bns/cp/a20190522qscs/sp.png") -736px -503px no-repeat;animation:downUp 1.8s .9s linear infinite; -webkit-animation:downUp 1.8s .9s linear infinite; -moz-animation:downUp 1.8s .9s linear infinite;}
+        .nav-list .nav07{background: url("//game.gtimg.cn/images/bns/cp/a20190522qscs/sp.png") -883px -503px no-repeat;animation:downUp 1.8s linear infinite; -webkit-animation:downUp 1.8s linear infinite; -moz-animation:downUp 1.8s linear infinite;}
+        .nav-list li .btn-lq{width: 102px; height: 38px;display: block; position: absolute; bottom: -38px; left: 50%; margin-left: -51px; cursor: pointer;}
+        .nav-list .btn-lq{ background: url("//game.gtimg.cn/images/bns/cp/a20190522qscs/sp.png") -411px -417px no-repeat;}
+        .nav-list .btn-lq.on{ background: url("//game.gtimg.cn/images/bns/cp/a20190522qscs/sp.png") -282px -418px no-repeat;}
+        .nav-list .btn-lq.disa{ background: url("//game.gtimg.cn/images/bns/cp/a20190522qscs/sp.png") -548px -416px no-repeat;}
+
+        @keyframes downUp{0%{ transform:translateY(0);}25%{ transform:translateY(-10px);}50%{ transform:translateY(0);}75%{ transform:translateY(10px);}100%{ transform:translateY(0);}}
+        @-webkit-keyframes downUp{0%{ -webkit-transform:translateY(0);}25%{ -webkit-transform:translateY(-10px);}50%{ -webkit-transform:translateY(0);}75%{ -webkit-transform:translateY(10px);}100%{ -webkit-transform:translateY(0);}}
+        @-moz-keyframes downUp{0%{ -moz-transform:translateY(0);}25%{ -moz-transform:translateY(-10px);}50%{ -moz-transform:translateY(0);}75%{ -moz-transform:translateY(10px);}100%{ -moz-transform:translateY(0);}}
+
+        #side-nav{background: url("//game.gtimg.cn/images/bns/cp/a20190522qscs/sp.png") -2px 0 no-repeat; width: 174px; height: 373px; text-align: center; padding-top: 95px;}
+        #side-nav li{width: 144px; height: 36px; margin: 10px auto; line-height: 36px; cursor: pointer;}
+        #side-nav li a{color: #fdfdfd;}
+        #side-nav li a:hover,#side-nav li.curr a{color: #c0bd95;}
+        #side-nav .side-head{width: 110px; height: 115px; margin: 0 auto;}
+        #side-nav .side-head img{display: block; margin: 0 auto;}
+        #side-nav .tops{background: url("//game.gtimg.cn/images/bns/cp/a20190522qscs/sp.png") -635px -45px no-repeat; width: 31px; height: 46px; }
+/*complex--*/
+/*Content*/
+.header{background-position:0 0px;background-repeat:repeat-x;height:79px;width:100%;}
+.header-fixed{position:fixed;_position:absolute;top:0;left:0;z-index:200}
+.header-main{width:1000px;margin:0 auto;z-index:100;}
+.logo{float:left;width:133px;height:77px;background-position:0 -233px;}
+.enter{float:left;width:194px;height:77px;background-position:0 -79px;}
+.enter:hover{background-position:0 -156px;}
+.down-list{height:77px;overflow:hidden;}
+.down-list li{float:left;}
+
+.down-link{display:block;height:77px;overflow:hidden;}
+.down-1{width:101px;background-position:0 0;}
+.down-1:hover{background-position:0 -77px;}
+.down-2{width:117px;background-position:-101px 0}
+.down-2:hover{background-position:-101px -77px;}
+.down-3{width:121px;background-position:-218px 0}
+.down-3:hover{background-position:-218px -77px;}
+.down-4{width:105px;background-position:-339px 0}
+.down-4:hover{background-position:-339px -77px;}
+.down-5 {width:122px;background-position:-444px 0}
+.down-5:hover{background-position:-444px -77px;}
+.down-6 {width:103px;background-position:-566px 0}
+.down-6:hover{background-position:-566px -77px;}
+/*.login{width: 103px;color: #6d828b;text-align: center;}
+.login a{color:#6d828b;}
+.unlogin{padding-top:20px;}
+.logined{padding-top:14px;}*/
+
+.actbox{position:absolute; z-index:210; top:496px;left:50%; width:1000px; margin-left:-500px; height:170px; }
+.wrap-deco{position:absolute;z-index:205;top:600px;left:50%;width:100%;margin-left:-50%;height:170px;background:url(//ossweb-img.qq.com/images/bns/web201506/index/170608/wrap-desc.png) no-repeat top center;}
+
+.enter-home{width:184px;height:50px;top:415px;left:306px;z-index:200;}
+.download-game{width:184px;height:50px;top:415px;left:503px;z-index:200;}
+.video-play{width:99px;height:99px;top:292px;left:448px;z-index:200;}
+.event-1{left:0px;top:0;width:333px;height:167px;}
+.event-1:hover .event-cover{position:absolute;width:100%;height:100%;left:0;top:0;background:#fff;opacity:0.1;filter:alpha(opacity=10);}
+.event-2{left:333px;top:0;width:333px;height:167px;}
+.event-2:hover .event-cover{position:absolute;width:100%;height:100%;left:0;top:0;background:#fff;opacity:0.1;filter:alpha(opacity=10);}
+.event-box{left:666px;top:0;width:333px;height:167px;overflow:hidden}
+.event-pic{left:0;top:0;width:1665px;height:167px;}
+.event-lnk{float:left;width:333px;height:167px;}
+.event-ctrls{width:66px;height:8px;right:27px;bottom:12px;z-index:200}
+.event-ctrl{float:left;background:#233347;width:8px;height:8px;-webkit-border-radius:4px;-moz-border-radius:4px;-ms-border-radius:4px;border-radius:4px;margin-left:3px;display:inline;}
+.event-ctrl-on{background:#ac2c2c;width:18px;}
+.field-title{font-size:28px;line-height:40px;}
+.field-des{font-size:14px;color:#666;line-height:20px;position:relative;z-index:101;}
+.field-verleft{float:left;width:470px;height:190px;margin:25px 26px 0 0;display:inline;}
+.vertext-box{height:20px;width:100%;top:0;left:0;z-index:210;}
+.ver-text{font-family:'\5b8b\4f53';color:#fff;text-align:center;line-height:20px;z-index:202;opacity:0.5;filter:alpha(opacity=50);}
+.vertext-bg{top:0;left:0;width:100%;height:20px;background:#000;opacity:0.7;filter:alpha(opacity=70);z-index:201;}
+.text-right{float:right;}
+.t1{color:#d63712;}
+.down-tip{height:40px;line-height:20px;padding:11px 17px 8px 18px;width:425px;color:#716353;background:#e2dcd6;font-family:'宋体'}
+.t2{color:#584c3f;font-weight:bold;}
+.drivers{height:88px;margin-top:12px;overflow:hidden;}
+.driver-link{float:left;width:149px;height:36px;line-height:36px;margin:0 7px 8px 0;display:inline;background-position:0 -362px;text-align:center;color:#484239;-o-transition:all 0.8s ease-in-out;-moz-transition:all 0.8s ease-in-out;-webkit-transition:all 0.8s ease-in-out;-ms-transition:all 0.8s ease-in-out;transition:all 0.8s ease-in-out;}
+.dlink-s{line-height:18px;}
+.dlink-sub{font-size:11px;color:#000;}
+.driver-link:hover{color:#e2370f;}
+
+.field-verright{float:left;width:502px;height:190px;margin-top:25px;}
+.suggest-main{border-top:1px solid #d1d0ce;padding:30px 0;height:310px}
+.suggest-tab{height:30px;width:604px;border-bottom:1px solid #d3cfc1;overflow:hidden;margin:20px 0 10px;position:relative;z-index:101;}
+.suggest-btn{width:150px;height:30px;color:#212121;text-align:center;line-height:30px;float:left;margin-right:1px;display:inline;}
+.suggest-btn-on,.suggest-btn:hover{background:#463423;color:#fff;}
+.suggest-texts{display:none;width: 600px;}
+.suggest-text{line-height:25px;color:#484848;}
+.stext-left{float:left;width:140px;}
+.stext-right{float:left;width:460px;}
+.kv-pic{right:0;bottom:0;width:496px;height:292px;background:url(//ossweb-img.qq.com/images/bns/web201407/index/0722/kv.jpg) no-repeat;}
+.popup{width:900px;height:600px;z-index:999;display:none;position:fixed !important;background:#000;outline:0;}
+.pop-close{right:-52px;top:0;width:52px;height:52px;background-position:0 -310px;cursor:pointer;}
+.pop-close:hover{background-position:-52px -310px;}
+
+.patch-history{height:74px;position:absolute;width:100%;bottom:95px;left:0;}
+.patch-opt{width:112px;top:0;height:74px;position:absolute;}
+.patch-1{left:16px;}
+.patch-2{left:188px;}
+.patch-3{left:358px;}
+.patch-4{left:526px;}
+.patch-5{left:698px;}
+.patch-6{left:864px;}
+.patch-lnk{height:52px;width:52px;margin:0 auto;display:block;position:relative;z-index:1;overflow:hidden;}
+.circle-bg{width:100%;height:100%;position:absolute;left:0;top:0;background:#fdffc7;opacity:0.2;filter:alpha(opacity=20);z-index:2;border-radius:100%;}
+.patch-month{width:40px;height:40px;line-height:40px;display:block;margin:6px auto 0;position:relative;z-index:3;color:#705f54;font-size:17px;text-align:center;border-radius:100%;-moz-transition:color .3s ease-in-out;-webkit-transition:color .3s ease-in-out;transition:color .2s ease-in-out;}
+.patch-month-bg{height:40px;width:40px;left:6px;top:6px;border-radius:100%;position:absolute;background:#fdffc7;z-index:2;-moz-transition:background-color .3s ease-in-out;-webkit-transition:background-color .3s ease-in-out;transition:background-color .2s ease-in-out;}
+.patch-name{color:#fdffc7;font-size:15px;text-align:center;height:22px;line-height:22px;-moz-transition:color .3s ease-in-out;-webkit-transition:color .3s ease-in-out;transition:color .2s ease-in-out;}
+.patch-forward .patch-month{border:3px solid #fdffc7;color:#fdffc7;margin-top:3px;}
+.patch-forward .patch-month-bg{background:none;}
+.patch-opt:hover .patch-month-bg,.patch-now .patch-month-bg{background:#ac2c2c;}
+.patch-opt:hover .patch-month,.patch-now .patch-month{color:#fdffc7;}
+.patch-now .patch-name,.patch-opt:hover .patch-name{color:#ac2c2c;font-weight:bold;}
+.patch-last{width:46px;height:46px;margin:0 auto;line-height:46px;background:#1b1b1b;}
+.patch-last img{margin-top:7px;}
+.patch-opt .patch-last{margin-top:0;}
+
+.foot_dark{background-color:#20222c;}
+.foot_cpright{width:1040px;margin:0 auto;padding:30px 20px!important;color:#a5a5a5!important;}
+.foot_cpright a{color:#a5a5a5!important;}
+.foot_cpright .foot_lefts a{margin-top:32px!important;}
+.logo-ncsoft{width:126px!important;height:32px!important;background:url(//ossweb-img.qq.com/images/bns/web201506/main/spr.png) no-repeat 0 -628px;}
+
+</style>
+</head>
+<body>
+<div class="header spr pr" id="header">
+      <div class="header-main pr">
+        <h1 class="logo ti spr">剑灵</h1>
+        <a class="enter ti spr" href="//bns.qq.com/main.shtml" title="点击进入剑灵官网首页" onclick="pgvSendClick({hottag:'index.topbar.enter'});">进入官网</a>
+        <ul class="down-list">
+            <li>
+                <a class="down-link down-1 btns ti" href="http://down.qq.com/bns/dltools/bns_2.324.8205.8_201905301153_setup_signed_TDL_speeded_signed.exe" title="点击极速下载剑灵客户端" onclick="pgvSendClick({hottag:'index.downbtn.client.lzxf1'});">极速下载</a>            </li>
+            <li>
+                <a class="down-link down-2 btns ti" href="http://down.qq.com/bns/dltools/bns_2.324.8205.8_201905301153_setup_signed_QQVIPDL_speeded_signed.exe" title="点击使用专属下载器下载剑灵客户端" onclick="pgvSendClick({hottag:'index.downbtn.client.qqvip1'});">专属下载器</a>            </li>
+            <!--<li>
+                <a class="down-link down-3 btns ti" href="###" title="点击使用QQ旋风下载完整客户端" onclick="pgvSendClick({hottag:'index.downbtn.client.xf1'});return XFLIB.startDownload_BatchTaskLixian(tasks1)" oncontextmenu="OnContextClick(this,event)">极速完整客户端</a>
+            </li>-->
+            <li>
+                <a class="down-link down-4 btns ti" href="//bns.qq.com/web201506/download.shtml" title="点击下载完整客户端" onclick="pgvSendClick({hottag:'index.downbtn.client.guanjia'});" target="_blank">完整客户端</a>
+            </li>
+            <li>
+                <a class="down-link down-5 btns ti" href="//download.17173.com/10807/" title="点击至17173下载剑灵客户端" onclick="pgvSendClick({hottag:'index.downbtn.client.17173'});" target="_blank">17173下载</a>
+            </li>
+            <li>
+                <a class="down-link down-6 btns ti" target="_blank" href="//bns.qq.com/web201506/download.shtml" title="点击进入官网下载" onclick="pgvSendClick({hottag:'index.downbtn.client.other'});">其他下载</a>
+            </li>
+            <!-- <li>
+                <div class="login">
+	          <p id="unlogin" class="unlogin">您好，<br>请<a href="javascript:;" id="dologin" >【登录】</a></p>
+	          <p id="logined" class="logined" style="display: none;">
+                     欢迎您<br><span id="login_qq_span"></span><br>
+                     <a href="javascript:;" id="dologout">【注销】</a>
+                  </p>
+                </div>
+            </li> -->
+        </ul>
+    </div>
+</div>
+<div class="wrap" id="wrap">
+    <div class="vertext-box pa">
+        <div class="ver-text pr">
+            [当前版本]<span>v2.324.8205.8</span>&nbsp;&nbsp;&nbsp;&nbsp;[文件大小]<span>23GB</span>&nbsp;&nbsp;&nbsp;&nbsp;[更新日期]<span>2019-06-03</span>
+        </div>
+        <div class="vertext-bg pa"></div>
+    </div>
+<!--[if !IE]>|xGv00|2347218064ef2632172b1df3d43437fe<![endif]-->
+  <!-- simpleS -->
+  <!-- <div class="main pr" id="main">
+  	<div class="parallax-wrap">
+     <div class="move-bg"></div>
+   </div>
+   <div class="move-mask"></div>
+   <div class="slogan-box">
+     <div class="slogan">
+       <a href="//bns.qq.com/cp/a20190401ver/index.htm" target="_blank" class="curr-version"></a>
+       <a href="javascript:Bns.vplay('popup','g08747z94gg');" class="video-btn"></a>
+     </div>
+     <img class="person3" src="//bns.qq.com/web201506/ossweb-img/verson/person3.png" alt="" width="611" height="1565">
+   </div>
+  </div>
+  <div class="actbox">
+    <div class="event-1 pa" id="fixEvent1"><a class="event-lnk" onclick="pgvSendClick({hottag:'index.fixad.event1'})" data-TGAD='11088,10537'></a></div>
+    <div class="event-2 pa" id="fixEvent2"><a class="event-lnk" onclick="pgvSendClick({hottag:index.fixad.event2})" data-TGAD='11088,10538'></a></div>
+    <div class="event-box pa" id="slider">
+      <div class="event-pic pa" id="slide_list">
+        <a class="event-lnk" onclick="pgvSendClick({hottag:'index.slider.event1'})" data-TGAD='11088,9717'></a>
+        <a class="event-lnk" onclick="pgvSendClick({hottag:'index.slider.event2'})" data-TGAD='11088,9718'></a>
+        <a class="event-lnk" onclick="pgvSendClick({hottag:'index.slider.event3'})" data-TGAD='11088,9719'></a>
+        <a class="event-lnk" onclick="pgvSendClick({hottag:'index.slider.event4'})" data-TGAD='11088,9720'></a>
+        <a class="event-lnk" onclick="pgvSendClick({hottag:'index.slider.event5'})" data-TGAD='11088,9721'></a>
+      </div>
+      <div class="event-ctrls pa" id="slider_switcher">
+        <span class="event-ctrl event-ctrl-on"></span>
+        <span class="event-ctrl"></span>
+        <span class="event-ctrl"></span>
+        <span class="event-ctrl"></span>
+        <span class="event-ctrl"></span>
+      </div>
+    </div>
+  </div>
+  <div class="wrap-deco">
+</div>
+<div class="content">
+  <div class="con-main">
+    <h2 class="field-title">剑灵诊所</h2>
+    <p class="field-des">为您解决客户端报错、闪退、延迟、卡机等问题，助您流畅运行剑灵</p>
+    <div class="field-verleft">
+        <p class="down-tip">
+            为您解决客户端进入游戏解决 <span class="t2">延迟高，掉线，<br>登陆时报错（200、300、1000、2000、3000）</span>
+        </p>
+        <div class="drivers">
+            <a href="//tgp.qq.com/cp/a20121125bns/index.htm" class="driver-link spr" onclick="pgvSendClick({hottag:'index.tools_3'});" target="_blank">TGP(剑灵专用免费加速)</a>
+            <a href="//jsq.qq.com/special_jl.html?ADTAG=cop.innercop.qqvip.jljsq" class="driver-link spr" onclick="pgvSendClick({hottag:'index.tools_2'});" target="_blank">QQ会员加速小助手</a>
+            <a href="//www.xunyou.com/bns/" class="driver-link spr" onclick="pgvSendClick({hottag:'index.tools_1'});" target="_blank">剑灵定制迅游加速器</a>
+        </div>
+    </div>
+    <div class="field-verright">
+        <p class="down-tip">
+            安装客户端时，请务必<em class="t2">安装DXSETUP及vcredist_x86两个组件</em>，否则可能造成无法进入游戏或者客户端崩溃等问题。
+        </p>
+        <div class="drivers">
+            <a href="//down.qq.com/bns/tools/directx_Jun2010_redist.exe" class="driver-link spr" onclick="pgvSendClick({hottag:'index.driver_1'});">DirectX</a>
+            <a href="//down.qq.com/bns/tools/vcredist_x86.EXE" class="driver-link spr" onclick="pgvSendClick({hottag:'index.driver_2'});">Microsoft visual C++</a>
+            <a href="//bns.qq.com/act/a20131030repair/index.htm" class="driver-link spr" onclick="pgvSendClick({hottag:'index.driver_3'});" target="_blank">报错修复</a>
+            <a href="//down.qq.com/bns/tools/331.93_desktop_win8_winvista_win7_64bit_international.exe" class="driver-link dlink-s spr" onclick="pgvSendClick({hottag:'index.driver_4'});">Nvidia显卡驱动<br><span class="dlink-sub">64位(推荐)</span></a>
+            <a href="//down.qq.com/bns/tools/331.93_desktop_win8_winvista_win7_international.exe" class="driver-link dlink-s spr" onclick="pgvSendClick({hottag:'index.driver_5'});">Nvidia显卡驱动<br><span class="dlink-sub">32位(建议升级)</span></a>
+        </div>
+    </div>
+  </div>
+  <div class="con-main suggest-main pr" id="suggest">
+    <h2 class="field-title">配置要求以及推荐</h2>
+    <p class="field-des">为了体验到剑灵的真正魅力，享受华丽的视觉盛宴，建议您使用推荐硬件配置和Win7 64位系统来进行游戏</p>
+    <div class="suggest-tab" id="stab">
+        <a href="###" class="suggest-btn" onclick="pgvSendClick({hottag:'ultra.config_1'});">3档流畅</a>
+        <a href="###" class="suggest-btn" onclick="pgvSendClick({hottag:'ultra.config_2'});">4档</a>
+        <a href="###" class="suggest-btn suggest-btn-on" onclick="pgvSendClick({hottag:'ultra.config_3'});">5档（推荐）</a>
+        <a href="###" class="suggest-btn" onclick="pgvSendClick({hottag:'ultra.config_4'});">Ultra（顶级）</a>
+    </div>
+    <div class="suggest-texts">
+        <p class="suggest-text"><span class="stext-left">CPU</span><span class="stext-right">推荐第四代智能英特尔酷睿i3处理器</span></p>
+        <p class="suggest-text"><span class="stext-left">内存</span><span class="stext-right">4GB及以上</span></p>
+        <p class="suggest-text"><span class="stext-left">显卡</span><span class="stext-right">GeForce GT 640 D5 , GT 640M(笔记本)</span></p>
+        <p class="suggest-text"><span class="stext-left">硬盘</span><span class="stext-right">7200转机械硬盘</span></p>
+        <p class="suggest-text"><span class="stext-left">系统</span><span class="stext-right">Windows 7(64位) DirectX 9.0C</span></p>
+        <p class="suggest-text"><span class="stext-left">屏幕分辨率</span><span class="stext-right">1440X900</span></p>
+    </div>
+    <div class="suggest-texts">
+        <p class="suggest-text"><span class="stext-left">CPU</span><span class="stext-right">推荐第四代智能英特尔酷睿i5处理器</span></p>
+        <p class="suggest-text"><span class="stext-left">内存</span><span class="stext-right">4GB及以上</span></p>
+        <p class="suggest-text"><span class="stext-left">显卡</span><span class="stext-right">GeForce GTX 650 , GTX 750M(笔记本)</span></p>
+        <p class="suggest-text"><span class="stext-left">硬盘</span><span class="stext-right">7200转机械硬盘</span></p>
+        <p class="suggest-text"><span class="stext-left">系统</span><span class="stext-right">Windows 7(64位) DirectX 9.0C</span></p>
+        <p class="suggest-text"><span class="stext-left">屏幕分辨率</span><span class="stext-right">1920X1080</span></p>
+    </div>
+    <div style="display:block;" class="suggest-texts">
+        <p class="suggest-text"><span class="stext-left">CPU</span><span class="stext-right">推荐第四代智能英特尔酷睿i7处理器</span></p>
+        <p class="suggest-text"><span class="stext-left">内存</span><span class="stext-right">4GB及以上</span></p>
+        <p class="suggest-text"><span class="stext-left">显卡</span><span class="stext-right">GeForce GTX 750 , GTX 750 Ti , GTX 760M(笔记本)<br>GTX 765M</span></p>
+        <p class="suggest-text"><span class="stext-left">硬盘</span><span class="stext-right">7200转机械硬盘 , SSD(固态硬盘)</span></p>
+        <p class="suggest-text"><span class="stext-left">系统</span><span class="stext-right">Windows 7(64位) DirectX 9.0C</span></p>
+        <p class="suggest-text"><span class="stext-left">屏幕分辨率</span><span class="stext-right">1920X1080</span></p>
+    </div>
+    <div class="suggest-texts">
+        <p class="suggest-text"><span class="stext-left">CPU</span><span class="stext-right">推荐第四代智能英特尔酷睿i7-4770K处理器</span></p>
+        <p class="suggest-text"><span class="stext-left">内存</span><span class="stext-right">8GB及以上</span></p>
+        <p class="suggest-text"><span class="stext-left">显卡</span><span class="stext-right">GeForce GTX 660 , GeForce GTX 760 , GTX 770<br>GTX 680M , GTX 780M</span></p>
+        <p class="suggest-text"><span class="stext-left">硬盘</span><span class="stext-right">7200转机械硬盘 , SSD(固态硬盘)</span></p>
+        <p class="suggest-text"><span class="stext-left">系统</span><span class="stext-right">Windows 7(64位) DirectX 9.0C</span></p>
+        <p class="suggest-text"><span class="stext-left">屏幕分辨率</span><span class="stext-right">2560x1600</span></p>
+    </div>
+    <div class="kv-pic pa"></div>
+  </div>
+</div> -->
+<!-- simpleE -->
+<!-- complexS -->
+  <div class="main-act" id="cont03">
+        <div class="container">
+            <div class="event">
+                <div class="slogan-act">
+                    <img src="//game.gtimg.cn/images/bns/cp/a20190522qscs/slogan.png" alt="" class="slogan-img">
+                    <img src="//game.gtimg.cn/images/bns/cp/a20190522qscs/slogan01.png" alt="" class="slogan-img01">
+                    <a href="javascript:Bns.vplay('popup','g08747z94gg');" class="btn-player"></a>
+                </div>
+
+                <div class="btn-box">
+                    <a  href="//bns.qq.com/web201506/download.shtml" class="btn-down" title="下载客户端"  onclick="pgvSendClick({hottag:'index.btn.down-act'});" target="_blank"></a>
+                    <a  href="//bns.qq.com/cp/a20190520wybb/index.htm" class="btn-zt" title="觉醒专题" onclick="pgvSendClick({hottag:'index.btn.zt-act'});" target="_blank"></a>
+                    <a  href="//bns.qq.com/guide/" class="btn-gl" title="版本攻略" onclick="pgvSendClick({hottag:'index.btn.gl-act'});" target="_blank"></a>
+                </div>
+
+                <div id="event01" class="event01 clearfix">
+                    <ul class="props-list">
+                        <li class="props01">
+                            <div class="imgs">
+                                <img src="//game.gtimg.cn/images/bns/cp/a20190522qscs/props01.jpg" alt="">
+                                <p>神龙工商袋</p>
+                            </div>
+                            <div class="imgs">
+                                <img src="//game.gtimg.cn/images/bns/cp/a20190522qscs/props02.jpg" alt="">
+                                <p>舒筋活络汤</p>
+                            </div>
+                            <div class="imgs">
+                                <img src="//game.gtimg.cn/images/bns/cp/a20190522qscs/props03.jpg" alt="">
+                                <p>元气丹</p>
+                            </div>
+
+                            <div class="clear"></div>
+                            <a class="btn-lq" href="//bns.qq.com/cp/a20190513superawaken/index.html" target="_blank" title="立即领取" onclick="pgvSendClick({hottag:'index.btn.lq01'});"></a>
+                        </li>
+                        <li class="props02">
+                            <div class="imgs">
+                                <img src="//game.gtimg.cn/images/bns/cp/a20190522qscs/props04.jpg" alt="">
+                                <p>你的气息 &nbsp;<span>(7天)</span></p>
+                            </div>
+                            <div class="imgs">
+                                <img src="//game.gtimg.cn/images/bns/cp/a20190522qscs/props05.jpg" alt="">
+                                <p>
+                                    烈火小圣10段<br>
+                                    <span>（3小时）</span>
+                                </p>
+                            </div>
+                            <div class="imgs">
+                                <img src="//game.gtimg.cn/images/bns/cp/a20190522qscs/props06.jpg" alt="">
+                                <p>囊中之锥礼物箱</p>
+                            </div>
+
+                            <div class="clear"></div>
+                            <a class="btn-lq" href="//bns.qq.com/cp/a20190513superawaken/index.html" target="_blank" title="立即领取" onclick="pgvSendClick({hottag:'index.btn.lq02'});"></a>
+                        </li>
+                        <li class="props03">
+                            <div class="imgs">
+                                <img src="//game.gtimg.cn/images/bns/cp/a20190522qscs/props07.jpg" alt="">
+                                <p class="tits">新春秋霸业礼物箱</p>
+                            </div>
+                            <div class="imgs">
+                                <img src="//game.gtimg.cn/images/bns/cp/a20190522qscs/props08.jpg" alt="">
+                                <p>泰天八卦牌箱
+                                    1-5号</p>
+                            </div>
+                            <div class="imgs">
+                                <img src="//game.gtimg.cn/images/bns/cp/a20190522qscs/props09.jpg" alt="">
+                                <p>天台爱情</p>
+                            </div>
+
+                            <div class="clear"></div>
+                            <a class="btn-lq" href="//act.daoju.qq.com/act/a20190506wwyl/index.htm" target="_blank" title="立即领取" onclick="pgvSendClick({hottag:'index.btn.lq03'});"></a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div id="event02" class="event02">
+                    <ul class="nav-list">
+                        <li>
+                            <a class="nav01" href="//bns.qq.com/cp/a20190428qdtx/index.htm" target="_blank"></a>
+                            <a class="btn-lq" href="//bns.qq.com/cp/a20190428qdtx/index.htm" target="_blank" title="立即领取" onclick="pgvSendClick({hottag:'index.btn.lq04'});"></a>
+                        </li>
+                        <li>
+                            <a class="nav02" href="//bns.qq.com/cp/a20190505reback/index.htm" target="_blank"></a>
+                            <a class="btn-lq" href="//bns.qq.com/cp/a20190505reback/index.htm" target="_blank" title="立即领取" onclick="pgvSendClick({hottag:'index.btn.lq05'});"></a>
+                        </li>
+                        <li>
+                            <a class="nav03" href="//bns.qq.com/cp/a20190510hmxyx/index.htm" target="_blank"></a>
+                            <a class="btn-lq" href="//bns.qq.com/cp/a20190510hmxyx/index.htm" target="_blank" title="立即领取" onclick="pgvSendClick({hottag:'index.btn.lq06'});"></a>
+                        </li>
+                        <li>
+                            <a class="nav04" href="//bns.qq.com/cp/a20190505ybwl/index.htm" target="_blank"></a>
+                            <a class="btn-lq" href="//bns.qq.com/cp/a20190505ybwl/index.htm" target="_blank" title="立即领取" onclick="pgvSendClick({hottag:'index.btn.lq07'});"></a>
+                        </li>
+                        <li>
+                            <a class="nav05" href="//bns.qq.com/cp/a20190509date/index.htm" target="_blank"></a>
+                            <a class="btn-lq" href="//bns.qq.com/cp/a20190509date/index.htm" target="_blank" title="立即领取" onclick="pgvSendClick({hottag:'index.btn.lq08'});"></a>
+                        </li>
+                        <li>
+                            <a class="nav06" href="//bns.qq.com/cp/a20190509dxz/index.html" target="_blank"></a>
+                            <a class="btn-lq" href="//bns.qq.com/cp/a20190509dxz/index.html" target="_blank" title="立即领取" onclick="pgvSendClick({hottag:'index.btn.lq09'});"></a>
+                        </li>
+                        <li>
+                            <a class="nav07" href="javascript:alert('敬请期待');"></a>
+                            <a class="btn-lq disa" href="javascript:alert('敬请期待');" title="立即领取" onclick="pgvSendClick({hottag:'index.btn.lq10'});"disabled></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <ul id="side-nav">
+        <li class="side-head">
+            <img src="//game.gtimg.cn/images/bns/cp/a20190522qscs/ewm.jpg" alt="">
+        </li>
+        <li class="snav"><a href="javascript:;">领取福利</a></li>
+        <li class="snav"><a href="//bns.qq.com/cp/a20190520wybb/index.htm" target="_blank">版本内容</a></li>
+        <li class=""><a href="//bns.qq.com/main.shtml" target="_blank">进入官网</a></li>
+        <li class=""><a href="//bns.qq.com/web201506/download.shtml" target="_blank">下载游戏</a></li>
+        <li class="tops"><a href="javascript:;"></a></li>
+    </ul>
+<!-- complexE -->
+</div>  
+<div class="popup" id="popup" style="display:none;">
+  <div id="video"></div>
+  <div class="pop-close pa spr" onclick="Bns.videoClose()"></div>
+</div>
+<div id="gfooter" ams="1298/34814/m1107" dark="1" ieg-logo="1">
+  <a href="javascript:;" title="ncsoft" class="foot_left logo-ncsoft spr">ncsoft</a>
+</div>
+<script>
+  var curTime0 = new Date,
+    showDialog,
+  Bns = {
+    _ver : "20140721",
+    
+    G : function (e) {
+      return document.getElementById(e)
+    },
+    gclass : function (e, t, n) {
+      var r = typeof e == "string" ? Bns.G(e) : document.body,
+      i = r.getElementsByTagName(t),
+      s = [];
+      for (var o = 0; o < i.length; o++)
+        i[o].className.indexOf(n) !== -1 && s.push(i[o]);
+      return s
+    },
+    css : function (el, style, value) {
+      if (arguments.length < 2) {
+        return true;
+      }
+      if (arguments.length == 2) {
+        if (document.defaultView) {
+          return document.defaultView.getComputedStyle(el, null).getPropertyValue(style);
+        } else {
+          if (bns.Base.browser.msie && style == 'opacity') {
+            var op = 1;
+            if (el.filters.alpha) {
+              op = el.filters.alpha.opacity;
+            } else if (el.filters["DXImageTransform.Microsoft.Alpha"]) {
+              op = el.filters["DXImageTransform.Microsoft.Alpha"].opacity
+            }
+            return (op);
+          }
+          style = style.replace(/\-(\w)/g, function ($, $1) {
+              return $1.toUpperCase();
+            });
+          return el.currentStyle[style];
+        }
+      } else {
+        if (bns.Base.browser.msie && style == 'opacity') {
+          if (!el.currentStyle.hasLayout) {
+            el.style.zoom = 1;
+          }
+          if (el.filters.alpha) {
+            el.filters.alpha.opacity = value * 100;
+          } else {
+            el.style.filter = "alpha(opacity=" + value * 100 + ")";
+          }
+          return el;
+        }
+        style = style.replace(/\-(\w)/g, function ($, $1) {
+            return $1.toUpperCase();
+          });
+        el.style[style] = value;
+      }
+    },
+    addload : function (e) {
+      var t = window.onload;
+      typeof window.onload != "function" ? window.onload = e : window.onload = function () {
+        t(),
+        e()
+      }
+    },
+    djs : function (u) {
+      var o = document.createElement("script");
+      o.src = u;
+      o.type = "text/javascript";
+      document.getElementsByTagName("head")[0].appendChild(o);
+      return o;
+    },
+    load : function (u, s, v) {
+      var e = this.djs(u);
+      if (navigator.userAgent.indexOf("MSIE") != -1) {
+        e.onreadystatechange = function () {
+          if (this.readyState && this.readyState == "loading") {
+            return;
+          } else {
+            s(v);
+          };
+        };
+      } else {
+        e.onload = function () {
+          s(v);
+        };
+      }
+    },
+    /*sugCtrl : function () {
+      var e = Bns.gclass("stab", "a", "suggest-btn"),
+      t = Bns.gclass("suggest", "div", "suggest-texts");
+      for (var n = 0; n < e.length; n++)
+        (function (n) {
+          e[n].onclick = function () {
+            for (var r = 0; r < t.length; r++)
+              (function (n) {
+                t[n].style.display = "none",
+                e[n].className = "suggest-btn",
+                e[n].getElementsByTagName("span").length && e[n].removeChild(e[n].lastChild)
+              })(r);
+            e[n].className = "suggest-btn suggest-btn-on";
+            var i = e[n].getElementsByTagName("span"),
+            s = document.createElement("span");
+            s.className = "suggest-arrow pa",
+            i.length ? e[n].removeChild(i) : e[n].appendChild(s),
+            t[n].style.display = "block"
+          }
+        })(n)
+    },*/
+     showLayer: function(pid) {
+            
+            if (showDialog) {
+                showDialog.show({
+                    id: pid,
+                    bgcolor: "#000",
+                    opacity: 70
+                })
+            } else {
+                Bns.load(location.protocol + "//game.gtimg.cn/images/js/comm/showDialog.min.js", function() {
+                    showDialog.show({
+                        id: pid,
+                        bgcolor: "#000",
+                        opacity: 70
+                    })
+
+                })
+            }
+        },
+      video_play: function (vid) {
+            if (typeof(showDialog) == 'function') {
+                videoInit(vid)
+            } else {
+                Bns.load(location.protocol + "//vm.gtimg.cn/tencentvideo/txp/js/txplayer.js", function() {
+                    videoInit(vid)
+                })
+            }
+
+            function videoInit(vid) {
+                var player = new Txplayer({
+                    containerId: 'video',
+                    vid: vid,
+                    width: '900',
+                    height: '600',
+                    autoplay: true
+                });
+            }
+        },
+      video_live: function (vid) {
+            if (typeof(showDialog) == 'function') {
+                videoInit2(vid)
+            } else {
+                Bns.load(location.protocol + "//vm.gtimg.cn/tencentvideo/txp/js/iframe/api.js", function() {
+                    videoInit2(vid)
+                })
+            }
+
+            function videoInit2(vid) {
+                var player = new Txp.LivePlayer({
+                  containerId: 'video',
+                  vid: vid,
+                  width:900,
+                  height:600,
+                  autoplay:true,
+                  livepid: '',    
+                });
+            }
+        },
+        vplay: function(pid, vid) {
+            if(vid == '' || vid == undefined){
+               return alert('敬请期待');
+            }
+            Bns.video_play(vid);
+            Bns.showLayer(pid);
+        },
+        vlive: function(pid, vid) {
+            if(vid == '' || vid == undefined){
+               return alert('敬请期待');
+            }
+            Bns.video_live(vid);
+            Bns.showLayer(pid);
+        },
+        viframe:function(pid,url){
+            Bns.showLayer(pid);
+            var iframeUrl = '<iframe width="100%" height="100%"  frameborder="0" scrolling="no" src="'+url+'"></iframe>'
+            document.getElementById('video').innerHTML = iframeUrl;
+        },
+    videoClose : function () {
+      showDialog.hide();
+      document.getElementById("video").innerHTML = "";
+    },
+    run : function () {
+      Bns.load(location.protocol + "//ossweb-img.qq.com/images/js/milo_bundle/milo.js", function () {
+          Bns.load(location.protocol + "//tajs.qq.com/stats?sId=22212170", function () {
+            Bns.load(location.protocol + "//pingjs.qq.com/tcss.ping.https.js", function () {
+              typeof pgvMain == "function" && pgvMain()
+            })
+        })
+        //Bns.videoShow('447646')
+      })
+    },
+    fixTopbar : function () {
+      window.onscroll = function () {
+        var top = Math.max(document.documentElement.scrollTop, document.body.scrollTop);
+        if (top >= 699) {
+          document.getElementById('header').className = 'header spr pr header-fixed';
+          document.getElementById('wrap').className = 'wrap wrap-fixed pr';
+        } else {
+          document.getElementById('header').className = 'header spr pr';
+          document.getElementById('wrap').className = 'wrap pr'
+        }
+      }
+    },
+    init : function () {
+      Bns.fixTopbar();
+      //Bns.sugCtrl();
+      Bns.run();
+      //window.scrollTo(0, 42)
+    }
+  };
+  /*var slider = function () {
+    function sliderClass(sliderId, options) {
+      this.sliderDom = Bns.G(sliderId);
+      this.sliderCtrls = Bns.gclass(sliderId, 'span', 'event-ctrl');
+      this.sliderBox = Bns.gclass(sliderId, 'div', 'event-pic')[0];
+      this.sliderPics = Bns.gclass(sliderId, 'a', 'event-lnk');
+      this.index = 0;
+      this.length = this.sliderPics.length;
+      this.options = {};
+      this.index = 0;
+      this.num = 0;
+      for (var k in options) {
+        this.options[k] = options[k];
+      }
+      this.init();
+      this._run()
+    };
+    var Tween = {
+      linear : function (pos) {
+        return pos
+      },
+      easeInOutExpo : function (pos) {
+        if (pos == 0)
+          return 0;
+        if (pos == 1)
+          return 1;
+        if ((pos /= 0.5) < 1)
+          return 0.5 * Math.pow(2, 10 * (pos - 1));
+        return 0.5 * (-Math.pow(2, -10 * --pos) + 2);
+      }
+    };
+    return sliderClass.prototype = {
+      init : function () {
+        this.sliderBox.style.left = 0;
+        this.ctrlsReset(0)
+      },
+      ctrlsReset : function (n) {
+        for (var i = 0; i < this.length; i++) {
+          this.sliderCtrls[i].className = 'event-ctrl';
+        }
+        this.sliderCtrls[n].className = 'event-ctrl event-ctrl-on';
+      },
+      _transition : function (elem, opt) {
+        var options = arguments[1] || {},
+        begin = options.begin,
+        change = options.change,
+        duration = options.duration || 500,
+        field = 'left',
+        ftp = options.ftp || 60,
+        ease = Tween.easeInOutExpo,
+        end = begin + change,
+        startTime = new Date().getTime(),
+        onStart = options.onStart || function () {},
+        onEnd = options.onEnd || function () {},
+        self = this;
+        onStart();
+        function __run() {
+          self.stimer = setTimeout(function () {
+              var newTime = new Date().getTime(),
+              timestamp = newTime - startTime,
+              delta = ease(timestamp / duration);
+              elem.style[field] = Math.ceil(begin + delta * change) + "px";
+              if (duration <= timestamp) {
+                elem.style[field] = end + "px";
+                onEnd()
+              } else {
+                self.stimer = setTimeout(__run, 1000 / ftp);
+              }
+            }, 1000 / ftp)
+        }
+        __run();
+      },
+      _move : function () {
+        var self = this;
+        clearTimeout(this.timer);
+        clearTimeout(this.stimer);
+        if (this.index === (this.length - 1)) {
+          this.index = 0;
+          this._transition(this.sliderBox, {
+            begin : -this.options.picWidth * (this.length - 1),
+            change : this.options.picWidth * (this.length - 1),
+            duration : 500,
+            onStart : function () {
+              self.ctrlsReset(0)
+            }
+          })
+          this._run()
+        } else {
+          this.index++;
+          this._transition(this.sliderBox, {
+            begin : -this.options.picWidth * (this.index - 1),
+            change : -this.options.picWidth,
+            duration : 500,
+            onStart : function () {
+              self.ctrlsReset(self.index)
+            }
+          })
+          this._run();
+        }
+      },
+      _handleStop : function () {
+        var self = this;
+        for (var i = 0; i < this.length; i++) {
+          (function (j) {
+            self.sliderCtrls[j].onmouseover = function () {
+              clearTimeout(self.timer);
+              clearTimeout(self.stimer);
+              var leftNow = parseInt(Bns.css(self.sliderBox, 'left'));
+              self._transition(self.sliderBox, {
+                begin : leftNow,
+                change : (-self.options.picWidth * j) - leftNow,
+                duration : 500,
+                onStart : function () {
+                  self.ctrlsReset(j);
+                  self.index = j;
+                }
+              })
+            }
+            self.sliderCtrls[j].onmouseleave = function () {
+              self._run();
+            }
+          })(i)
+        }
+      },
+      _run : function () {
+        var self = this;
+        this._handleStop()
+        this.timer = setTimeout(function () {
+            self._move();
+          }, this.options.timeout);
+      }
+    },
+    sliderClass
+  }
+  ();*/
+  var fn={};
+
+  /*Bns.load(location.protocol + "//ossweb-img.qq.com/images/clientpop/js/tgadshow.min.js",function(){
+    var slider1 = new slider('slider', {
+      picWidth : 333,
+      timeout : 3000
+    });
+  });*/
+  window.onload = function () {
+    Bns.init();
+    var curTime = new Date();
+    if (Math.random() < 0.33) {
+      var imgSendTimePoint = new Image();
+      imgSendTimePoint.src = "//isdspeed.qq.com/cgi-bin/r.cgi?flag1=7718&flag2=63&flag3=1&1=" + (curTime - d0) + "&2=" + (curTime0 - d0);
+    }
+  };
+</script>
+<script src="//ossweb-img.qq.com/images/js/jquery/jquery-1.9.1.min.js"></script>
+<script src="//ossweb-img.qq.com/images/bns/title/bns.js"></script>
+<script src="//game.gtimg.cn/images/js/2018foot/foot.js"></script>
+<script src="//ossweb-img.qq.com/images/js/milo/milo.js"></script>
+<script src="//bns.qq.com/web201506/js/jquery.parallax.js"></script>
+<script src="//ossweb-img.qq.com/images/js/comm/scroller.min.js"></script>
+<script type="text/javascript">
+  var sideNav=new Scroller({
+    navId:"side-nav",//浮动导航的ID
+    navs:"snav", //导航链接, 可以用标签名或者class名，例如：li或者snav
+    conts:["event01"], //内容板块ID
+    cls:"curr", //导航选中class
+    drag:true //是否能拖动
+  });
+$(function(){
+  $('.tops').on('click',function(){
+    $('html,body').animate({
+     scrollTop: 0
+    }, 300);
+  })
+})
+//弹窗
+function TGDialogS(e){
+    // 利用milo库引入dialog组件
+    need("biz.dialog",function(Dialog){
+        Dialog.show({
+            id:e,
+            bgcolor:'#000', //弹出“遮罩”的颜色，格式为"#FF6600"，可修改，默认为"#fff"
+            opacity:70 //弹出“遮罩”的透明度，格式为｛10-100｝，可选
+        });
+    });
+};
+function closeDialog(){
+    // 利用milo库引入dialog组件
+    need("biz.dialog",function(Dialog){
+        Dialog.hide();
+    });
+};
+</script>
+</body>
+</html>
+<!--[if !IE]>|xGv00|c42e447958ecd6df7da50984c5f16645<![endif]-->

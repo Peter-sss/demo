@@ -1,0 +1,671 @@
+.header {
+  height: 40px;
+  padding: 0 0 0 25px;
+  box-sizing: border-box;
+}
+.header .left img {
+  border-radius: 20px;
+}
+.header .left li {
+  float: left;
+  cursor: pointer;
+  margin-right: 50px;
+  margin-top: 5px;
+}
+.header .left li img {
+  height: 30px;
+}
+.header .right li {
+  float: left;
+  line-height: 30px;
+  margin: 5px;
+}
+.header .right li:nth-child(even) {
+  color: #cccccc;
+}
+.header .right li:last-child {
+  background: url("../images/03-header.jpg") no-repeat 5px center;
+  background-size: 10.5px 12px;
+  padding: 0 10px 0 20px;
+  box-shadow: 0px 0px 10px #ccc;
+  height: 20px;
+  border: 1px solid #cccccc;
+  margin-top: 10px;
+  line-height: 20px;
+  cursor: pointer;
+}
+.nav {
+  height: 80px;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+.nav .fl li {
+  float: left;
+  font-size: 17px;
+  color: black;
+  height: 100%;
+  margin-right: 10px;
+}
+.nav .fl li a {
+  margin-top: 10px;
+  float: left;
+  text-align: center;
+  height: 60px;
+  padding: 0 25px;
+  line-height: 60px;
+}
+.nav .fl li a:hover {
+  color: red;
+}
+.nav .fl li .bubbly-button {
+  font-family: 'Helvetica', 'Arial', sans-serif;
+  display: inline-block;
+  -webkit-appearance: none;
+  appearance: none;
+  background-color: #dddddd;
+  color: black;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  position: relative;
+  transition: transform ease-in 0.1s, box-shadow ease-in 0.25s;
+}
+.nav .fl li .bubbly-button:focus {
+  outline: 0;
+}
+.nav .fl li .bubbly-button:before,
+.nav .fl li .bubbly-button:after {
+  position: absolute;
+  content: '';
+  display: block;
+  width: 140%;
+  height: 100%;
+  left: -20%;
+  z-index: 1000;
+  transition: all ease-in-out 0.5s;
+  background-repeat: no-repeat;
+}
+.nav .fl li .bubbly-button:before {
+  display: none;
+  top: -75%;
+  background-image: radial-gradient(circle, black 20%, transparent 20%), radial-gradient(circle, transparent 20%, black 20%, transparent 30%), radial-gradient(circle, black 20%, transparent 20%), radial-gradient(circle, black 20%, transparent 20%), radial-gradient(circle, transparent 10%, black 15%, transparent 20%), radial-gradient(circle, black 20%, transparent 20%), radial-gradient(circle, black 20%, transparent 20%), radial-gradient(circle, black 20%, transparent 20%), radial-gradient(circle, black 20%, transparent 20%);
+  background-size: 10% 10%, 20% 20%, 15% 15%, 20% 20%, 18% 18%, 10% 10%, 15% 15%, 10% 10%, 18% 18%;
+}
+.nav .fl li .bubbly-button:after {
+  display: none;
+  bottom: -75%;
+  background-image: radial-gradient(circle, black 20%, transparent 20%), radial-gradient(circle, black 20%, transparent 20%), radial-gradient(circle, transparent 10%, black 15%, transparent 20%), radial-gradient(circle, black 20%, transparent 20%), radial-gradient(circle, black 20%, transparent 20%), radial-gradient(circle, black 20%, transparent 20%), radial-gradient(circle, black 20%, transparent 20%);
+  background-size: 15% 15%, 20% 20%, 18% 18%, 20% 20%, 15% 15%, 10% 10%, 20% 20%;
+}
+.nav .fl li .bubbly-button:active {
+  transform: scale(0.9);
+  background-color: #ccc;
+  box-shadow: 0 2px 25px rgba(0, 0, 0, 0.2);
+}
+.nav .fl li .bubbly-button.animate:before {
+  display: block;
+  animation: topBubbles ease-in-out 0.75s forwards;
+}
+.nav .fl li .bubbly-button.animate:after {
+  display: block;
+  animation: bottomBubbles ease-in-out 0.75s forwards;
+}
+@keyframes topBubbles {
+  0% {
+    background-position: 5% 90%, 10% 90%, 10% 90%, 15% 90%, 25% 90%, 25% 90%, 40% 90%, 55% 90%, 70% 90%;
+  }
+  50% {
+    background-position: 0% 80%, 0% 20%, 10% 40%, 20% 0%, 30% 30%, 22% 50%, 50% 50%, 65% 20%, 90% 30%;
+  }
+  100% {
+    background-position: 0% 70%, 0% 10%, 10% 30%, 20% -10%, 30% 20%, 22% 40%, 50% 40%, 65% 10%, 90% 20%;
+    background-size: 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%;
+  }
+}
+@keyframes bottomBubbles {
+  0% {
+    background-position: 10% -10%, 30% 10%, 55% -10%, 70% -10%, 85% -10%, 70% -10%, 70% 0%;
+  }
+  50% {
+    background-position: 0% 80%, 20% 80%, 45% 60%, 60% 100%, 75% 70%, 95% 60%, 105% 0%;
+  }
+  100% {
+    background-position: 0% 90%, 20% 90%, 45% 70%, 60% 110%, 75% 80%, 95% 70%, 110% 10%;
+    background-size: 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%;
+  }
+}
+.nav .fl li .bubbly-button:hover {
+  color: red;
+}
+.nav .fr li {
+  height: 100%;
+  width: 300px;
+  line-height: 80px;
+  position: relative;
+}
+.nav .fr li input {
+  width: 300px;
+  height: 29px;
+  background-color: #fff;
+  border: 2px solid #b4b4b4;
+  border-radius: 5px;
+  font-size: 14px;
+  text-indent: 10px;
+}
+.nav .fr span {
+  height: 29px;
+  width: 65px;
+  position: absolute;
+  right: -2px;
+  top: 25px;
+  cursor: pointer;
+  background: url(../images/spr.png) no-repeat -139px -522px;
+}
+.content {
+  height: 800px;
+  background: url(../images/bg.jpeg) no-repeat top center;
+  background-size: 1500px 800px;
+  background-size: 100%;
+}
+.content .wrap {
+  width: 400px;
+  height: 624px;
+  margin: 90px 0 0 300px;
+  position: relative;
+}
+.content .wrap .slide {
+  width: 400px;
+  height: 624px;
+  position: relative;
+}
+.content .wrap .slide li {
+  width: 400px;
+  height: 624px;
+  position: absolute;
+  transition: all 1s;
+  top: 0;
+  left: 0;
+}
+.content .wrap .slide li img {
+  width: 100%;
+}
+.content .wrap .prve,
+.content .wrap .next {
+  position: absolute;
+  width: 76px;
+  height: 112px;
+  top: 50%;
+  transform: translateY(-70%);
+  z-index: 99;
+  opacity: 0;
+  transition: all 1s;
+  cursor: pointer;
+}
+.content .wrap .prve {
+  left: -200px;
+  background-image: url(../images/prev.png);
+}
+.content .wrap .next {
+  right: -200px;
+  background-image: url(../images/next.png);
+}
+.content .wrap:hover .prve,
+.content .wrap:hover .next {
+  opacity: 1;
+}
+.block {
+  margin-top: 40px;
+}
+.block .left {
+  float: left;
+  width: 500px;
+  height: 260px;
+  position: relative;
+  margin-right: 20px;
+}
+.block .left:hover .arrow {
+  opacity: 1;
+}
+.block .left .banner > li {
+  position: absolute;
+  width: 500px;
+  height: 260px;
+  display: none;
+  top: 0;
+}
+.block .left .banner > li img {
+  width: 500px;
+  height: 260px;
+}
+.block .left .banner > li:first-child {
+  display: block;
+}
+.block .left .arrow {
+  opacity: 0;
+  transition: all 1s;
+}
+.block .left .arrow li:first-child {
+  position: absolute;
+  width: 40px;
+  height: 50px;
+  top: 50%;
+  left: 0;
+  cursor: pointer;
+  background: url(../images/brand-left.png) top center;
+  transform: translateY(-50%);
+}
+.block .left .arrow li:last-child {
+  position: absolute;
+  width: 40px;
+  height: 50px;
+  top: 50%;
+  right: 0;
+  cursor: pointer;
+  background: url(../images/brand-right.png) top center;
+  transform: translateY(-50%);
+}
+.block .left ol {
+  position: absolute;
+  height: 20px;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  bottom: 4px;
+  z-index: 10;
+}
+.block .left ol > li {
+  cursor: pointer;
+  float: left;
+  width: 15px;
+  height: 15px;
+  margin: 3px 4px;
+  border: 1px solid white;
+  border-radius: 50%;
+  background-color: black;
+  transition: all 0.5s linear;
+}
+.block .center {
+  float: left;
+  width: 500px;
+  height: 260px;
+  padding: 15px 0;
+  box-sizing: border-box;
+  background-color: #2d2d2d;
+}
+.block .center .top {
+  border-bottom: 1px solid #646464;
+  margin: 0 20px;
+}
+.block .center .top li {
+  float: left;
+  height: 100%;
+  box-sizing: border-box;
+  padding-bottom: 6px;
+}
+.block .center .top li a {
+  color: #ffffff;
+  font-size: 18px;
+  float: left;
+  padding: 10px 20px;
+}
+.block .center .top .red {
+  border-bottom: 2px solid red;
+}
+.block .center .bottom {
+  margin-top: 10px;
+  position: relative;
+  overflow: hidden;
+  height: 100%;
+  width: 100%;
+}
+.block .center .bottom > div {
+  margin-top: 5px;
+  width: 3000px;
+  position: absolute;
+}
+.block .center .bottom > div ul {
+  float: left;
+  width: 500px;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+.block .center .bottom > div ul li:hover a {
+  color: skyblue;
+}
+.block .center .bottom > div ul a {
+  color: #dddddd;
+  font-size: 15px;
+  height: 30px;
+  display: block;
+}
+.block .center .bottom > div ul a p {
+  float: left;
+}
+.block .center .bottom > div ul a span {
+  float: right;
+}
+.block .right {
+  float: right;
+  width: 180px;
+  height: 260px;
+  cursor: pointer;
+}
+.block .right img {
+  width: 180px;
+  height: 260px;
+  transition: all 1s;
+}
+.block .right:hover img {
+  box-shadow: 0 15px 30px #c35523;
+  transform: translate3d(0, -2px, 0);
+}
+.store {
+  margin-top: 40px;
+}
+.store .left {
+  background-color: #312c3b;
+  height: 790px;
+  width: 208px;
+  float: left;
+  cursor: pointer;
+}
+.store .left .top > li {
+  height: 100px;
+  width: 208px;
+  box-sizing: border-box;
+  border: 1px solid #3d3747;
+  position: relative;
+}
+.store .left .top > li a {
+  float: left;
+  padding: 25px 40px 25px 0;
+  height: 50px;
+  font-size: 16px;
+  line-height: 50px;
+  color: #899dcd;
+}
+.store .left .top > li span {
+  margin: 25px 5px 0 40px;
+  width: 50px;
+  height: 50px;
+  float: left;
+}
+.store .left .top > li:nth-child(1) span {
+  background: url(../images/spr.png) 0 -303px;
+}
+.store .left .top > li:nth-child(2) span {
+  background: url(../images/spr.png) -50px -303px;
+}
+.store .left .top > li:nth-child(3) span {
+  background: url(../images/spr.png) -150px -303px;
+}
+.store .left .top > li:nth-child(4) span {
+  background: url(../images/spr.png) -150px -353px;
+}
+.store .left .top > li i {
+  height: 100px;
+  width: 208px;
+  position: absolute;
+  top: -1px;
+  left: -1px;
+  display: none;
+  background-color: rgba(135, 206, 235, 0.4);
+}
+.store .left .center {
+  width: 208px;
+}
+.store .left .center > li {
+  height: 130px;
+  width: 104px;
+  float: left;
+  padding-top: 10px;
+  box-sizing: border-box;
+  border: 1px solid #3d3747;
+  position: relative;
+}
+.store .left .center > li span {
+  width: 50px;
+  height: 50px;
+  display: block;
+  margin: 0 auto;
+}
+.store .left .center > li a {
+  display: block;
+  height: 50px;
+  font-size: 16px;
+  line-height: 50px;
+  color: #899dcd;
+  text-align: center;
+}
+.store .left .center > li:nth-child(1) span {
+  background: url(../images/spr.png) 0 -353px;
+}
+.store .left .center > li:nth-child(2) span {
+  background: url(../images/spr.png) -150px -403px;
+}
+.store .left .center > li:nth-child(3) span {
+  background: url(../images/spr.png) -50px -353px;
+}
+.store .left .center > li:nth-child(4) span {
+  background: url(../images/spr.png) 0px -403px;
+}
+.store .left .center > li:nth-child(5) span {
+  background: url(../images/spr.png) -100px -353px;
+}
+.store .left .center > li:nth-child(6) span {
+  background: url(../images/spr.png) -100px -403px;
+}
+.store .left .center > li i {
+  height: 130px;
+  width: 104px;
+  position: absolute;
+  top: -1px;
+  left: -1px;
+  display: none;
+  background-color: rgba(135, 206, 235, 0.4);
+}
+.store .right {
+  float: right;
+}
+.store .right .fash {
+  width: 1000px;
+  height: 600px;
+  position: relative;
+  background: url(../images/bs.jpg) no-repeat;
+  background-size: 1000px;
+}
+.store .right .fash div {
+  position: absolute;
+  background-color: #d7d7d7;
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+}
+.store .right .fash div span {
+  display: block;
+  margin: 36px auto 0;
+  width: 174px;
+  height: 126px;
+  background: url(../images/fish-12-126.png) no-repeat no-repeat center center;
+  animation: dong 1.5s steps(11) infinite;
+}
+.store .right .fash div:nth-child(1) {
+  top: 10px;
+  left: 10px;
+}
+.store .right .fash div:nth-child(2) {
+  top: 10px;
+  right: 10px;
+}
+.store .right .fash div:nth-child(3) {
+  bottom: 10px;
+  right: 10px;
+}
+.store .right .fash div:nth-child(4) {
+  bottom: 10px;
+  left: 10px;
+}
+.store .right .fash div:nth-child(5) {
+  top: 200px;
+  right: 400px;
+  cursor: move;
+}
+.store .right .fash .bubble {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  box-shadow: inset -30px -30px 75px rgba(0, 0, 0, 0.2), /* 淡灰色渐变背景，光源位于左上方 */ inset 0px 0px 5px rgba(0, 0, 0, 0.5), /* 泡沫内部深灰色边界 */ inset 0px 0px 55px rgba(255, 255, 255, 0.5), /* 泡沫内部白色渐变效果 */ inset -3px -3px 5px rgba(0, 0, 0, 0.5), /* 颜色稍深的右下边缘阴影效果 */ 0 0 50px rgba(255, 255, 255, 0.75);
+  /* 泡沫周围的白色发光效果，以更好地突显边缘 */
+}
+.store .right .fash .bubble:before {
+  /* 在泡沫的左上角加上白色的亮点，形成光斑效果 */
+  content: "";
+  display: block;
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  top: 25px;
+  left: 25px;
+  border-radius: 75px 25px;
+  box-shadow: inset 10px 10px 50px rgba(255, 255, 255, 0.6);
+}
+.store .right .fash .bubble:after {
+  /*      使用:after伪元素构造泡沫内壁，形成薄薄的泡沫膜  */
+  content: "";
+  display: block;
+  position: absolute;
+  width: 190px;
+  height: 190px;
+  border-radius: 190px;
+  left: 5px;
+  top: 5px;
+  box-shadow: inset 0px -5px 5px rgba(0, 0, 0, 0.05);
+}
+.store .right .bottom {
+  cursor: pointer;
+  margin-top: 20px;
+  height: 160px;
+  width: 1000px;
+  position: relative;
+  overflow: hidden;
+}
+.store .right .bottom ul {
+  position: absolute;
+  width: 2136px;
+}
+.store .right .bottom ul li {
+  float: left;
+  width: 150px;
+  height: 130px;
+  overflow: hidden;
+  border: 4px solid #b4b4b4;
+  border-radius: 20px;
+  margin: 10px;
+}
+.store .right .bottom ul li img {
+  width: 150px;
+}
+@keyframes dong {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 0 -1386px;
+  }
+}
+.area ul {
+  padding-left: 6px;
+  margin-top: 30px;
+}
+.area li {
+  display: inline-block;
+  position: relative;
+  width: 130px;
+  height: 130px;
+  margin: 0 5px;
+  border-radius: 50%;
+  border: 4px solid #b4b4b4;
+  text-align: center;
+  cursor: pointer;
+}
+.area li img {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+}
+.area li i {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #ccc;
+  opacity: .5;
+  transition: all .5s;
+}
+.area li:hover > i {
+  opacity: 0;
+}
+.area ul:nth-child(1) li img {
+  transition: all 2s;
+}
+.area ul:nth-child(1) li:hover img {
+  transform: rotate(360deg);
+}
+.area ul:nth-child(2) li:hover img {
+  transform: rotateY(360deg);
+  transition: all 1s;
+}
+.area ul:nth-child(3) li:hover img {
+  transform: rotateX(360deg);
+  transition: all 1s;
+}
+.footer {
+  margin-top: 30px;
+  height: 170px;
+  background-color: #1e1e1e;
+}
+.footer .w {
+  box-sizing: border-box;
+  padding: 20px 15px;
+}
+.footer .w .left {
+  cursor: pointer;
+  float: left;
+  margin-right: 50px;
+}
+.footer .w .left img {
+  border-radius: 100px;
+  width: 300px;
+}
+.footer .w .center {
+  margin-top: 10px;
+  float: left;
+}
+.footer .w .center p {
+  height: 25px;
+  line-height: 20px;
+  font-size: 14px;
+}
+.footer .w .right {
+  cursor: pointer;
+  margin-top: 20px;
+  float: right;
+  height: 100px;
+  width: 100px;
+  background-image: url(../images/jcp_gzh.jpg);
+}
+.airplane {
+  width: 80px;
+  height: 160px;
+  position: fixed;
+  bottom: 50px;
+  right: 40px;
+  border-radius: 10px;
+  z-index: 10000;
+  background: url("../images/ap.jpg") center center;
+  background-color: red;
+  background-size: 160px 160px;
+  opacity: .8;
+  display: none;
+  cursor: pointer;
+}

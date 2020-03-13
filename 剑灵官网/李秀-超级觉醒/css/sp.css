@@ -1,0 +1,634 @@
+
+/* 导航栏 */
+.nav {
+    background-color: #000;
+    height: 50px;
+    width: 100%;
+}
+.top {
+    width: 1100px;
+    margin: 0 auto;
+}
+.top ul li{
+    float: left;
+    line-height: 47px;
+    margin-right: 32px;
+}
+.top ul li a {
+    font-size: 16px;
+    color: #fff;
+}
+/* 主要内容页 */
+.main {
+    width: 100%;
+    background: url(../img/sp_bg.png) no-repeat center top #171c22;
+    overflow: hidden;
+
+    /* height:100%; */
+}
+/* 开始动画  开始*/
+.main .start {
+    width: 1000px;
+    height: 700px;
+    margin: 0 auto;
+    position: relative;
+}
+.main .spaw {
+    width: 1100px;
+    height: 427px;
+    left: 0;
+    bottom: 0;
+}
+.main .spaw .q{
+    width: 425px;
+    height: 321px;
+    bottom: -130px;
+    left: -37px;
+    background: url(../img/q.png) no-repeat;
+    background-size: contain;
+    animation: scaleA .4s 0.2s ease both;
+}
+.main .spaw .d{
+    width: 207px;
+    height: 239px;
+    bottom: -85px;
+    left: 359px;
+    background: url(../img/d.png) no-repeat;
+    background-size: contain;
+    animation: scaleA .4s 0.4s ease both;
+}
+.main .spaw .t{
+    width: 187px;
+    height: 205px;
+    bottom: -49px;
+    left: 547px;
+    background: url(../img/t.png) no-repeat;
+    background-size: contain;
+    animation: scaleA .4s 0.6s ease both;
+}
+.main .spaw .x{
+    width: 336px;
+    height: 332px;    
+    bottom: -147px;
+    left: 681px;
+    background: url(../img/x.png) no-repeat;
+    background-size: contain;
+    animation: scaleA .4s 0.8s ease both;
+}
+@keyframes scaleA{
+	0%{opacity:0;transform:scale(3,3);}
+	80%{transform:scale(.9,.9);}
+	100%{opacity:1;transform:scale(1,1);}
+}
+.spaw1{
+    width:481px;
+    height:427px;
+    animation:pulse1 .5s 1s ease-in both;
+}
+@keyframes pulse1{
+0%{transform:scale(1) translateY(0);opacity:1;}
+100%{transform:scale(4) translateY(-600px);opacity:0;}
+}
+
+/* 点击播放器动画效果 */
+.btn_xz {
+    width: 70px;
+    height: 70px;
+    left: 950px;
+    top: 450px;
+    animation: fadeInRight 1s 1s ease both;
+}
+.btn_xz i {
+    width: 72px;
+    height: 72px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-position: -327px 0;
+    animation: xz 2s linear infinite;
+    background: url(../img/xz.png) no-repeat;
+}
+.btn_xz span {
+    width: 23px;
+    height: 36px;
+    position: absolute;
+    left: 56%;
+    top: 58%;
+    margin: -18px 0 0 -10px;
+    background:url(../img/arrow.png) no-repeat;
+    animation: pulse 2s ease both infinite;
+}
+ @keyframes xz{
+    0%{transform:rotate(0deg)}
+    50%{transform:rotate(180deg)}
+    100%{transform:rotate(360deg)}
+}
+@keyframes pulse{
+    0%{transform:scale(1.4)}
+    50%{transform:scale(0.8)}
+    100%{transform:scale(1.4)}
+}
+/* 播放的GIF动画 */
+.video {
+    z-index: 998;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+    /* display: none; */
+}
+.video .gif{
+    z-index: 999;
+    background: url(../img/gif.GIF) no-repeat;
+    background-size: contain;
+    width: 800px;
+    height: 500px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.video .delete {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top:-30px;
+    right: -60px;
+    cursor: pointer;
+}
+/* 开始动画 结束 */
+
+/* 主要内容的第一部分 */
+.main_fir {
+    width: 1200px;
+    display: flex;
+    margin: 150px auto;
+    position: relative;
+    animation: fadeInUp 2s 1s ease both;
+}
+@keyframes fadeInUp{
+    0%{opacity:0;transform:translateY(0)}
+    25%{opacity:0;transform:translateY(-600px)}
+    50%{opacity:0.4;transform:translateY(100px)}
+    75%{opacity:1;transform:translateY(-600px)}
+    100%{opacity:1;transform:translateY(0)}
+}
+/* 左边立体导航 */
+.main_fir .jleft{
+    width: 245px;
+    height: 300px;
+    margin-top: 130px;
+    background-color: rgba(71, 71, 73, 0.5);
+}
+.main_fir .jleft li {
+    transform-style: preserve-3d;
+    position: relative;
+    width: 50%;
+    height: 100px;
+    float: left;
+    transition: all .5s;
+}
+.main_fir .jleft li:hover {
+    transform: rotateX(-90deg);
+}
+.main_fir .jleft span{
+    width: 122.5px;
+    height: 100px;
+    position: absolute;
+    text-align: center;
+    line-height: 100px;
+    color: #f3c258;
+    font-size: 16px;
+    text-shadow: 2px 2px 2px #7a7468;
+}
+.main_fir .jleft li:nth-child(1) .jlone{
+    background: url(../img/left1.png) no-repeat;
+    background-size: cover;
+    transform: translateZ(50px);
+}
+.main_fir .jleft li:nth-child(1) .jltwo{
+    color: #171c22;
+    background-color: #eeb935;
+    transform: rotateX(90deg) translateZ(50px);
+}
+.main_fir .jleft li:nth-child(2) .jlone{
+    background: url(../img/left2.png) no-repeat;
+    background-size: cover;
+    transform: translateZ(50px);
+}
+.main_fir .jleft li:nth-child(2) .jltwo{
+    color: #171c22;
+
+    background-color: #e5a134;
+    transform: rotateX(90deg) translateZ(50px);
+}
+.main_fir .jleft li:nth-child(3) .jlone{
+    background: url(../img/left3.png) no-repeat;
+    background-size: cover;
+    transform: translateZ(50px);
+}
+.main_fir .jleft li:nth-child(3) .jltwo{
+    color: #171c22;
+
+    background-color: #dd7633;
+    transform: rotateX(90deg) translateZ(50px);
+}
+.main_fir .jleft li:nth-child(4) .jlone{
+    background: url(../img/left4.png) no-repeat;
+    background-size: cover;
+    transform: translateZ(50px);
+}
+.main_fir .jleft li:nth-child(4) .jltwo{
+    color: #171c22;
+
+    background-color: #6f64c0;
+    transform: rotateX(90deg) translateZ(50px);
+}
+.main_fir .jleft li:nth-child(5) .jlone{
+    background: url(../img/left5.png) no-repeat;
+    background-color: rgba(255,255,255,.5);
+    background-size: cover;
+    transform: translateZ(50px);
+}
+.main_fir .jleft li:nth-child(5) .jltwo{
+    color: #171c22;
+
+    background-color: #5b53a9;
+    transform: rotateX(90deg) translateZ(50px);
+}
+.main_fir .jleft li:nth-child(6) .jlone{
+    background: url(../img/left6.png) no-repeat;
+    background-size: cover;
+    transform: translateZ(50px);
+}
+.main_fir .jleft li:nth-child(6) .jltwo{
+    color: #171c22;
+
+    background-color: #403c91;
+    transform: rotateX(90deg) translateZ(50px);
+}
+/* 左边立体导航  结束 */
+/* 中间banner图轮播  开始*/
+.main_fir .jcenter {
+    width: 610px;
+    height: 300px;
+    margin-top: 130px;
+    position: relative;
+    overflow: hidden;
+}
+.main_fir .jcenter li {
+    position: absolute;
+    display: none;
+} 
+.main_fir .jcenter li:first-child {
+    display: block;
+} 
+.jcarrow {
+    display: none;
+}
+.jcenter:hover .jcarrow{
+    display: block;
+}
+.arrow-left{
+    left: 20px;
+    background: url(../img/arrow-left.png) no-repeat center center;
+}
+.arrow-right{
+    right: 20px;
+    background: url(../img/arrow-right.png) no-repeat center center;
+}
+.arrow-left,
+.arrow-right {
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    background-size: cover;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    transition: all .7s;
+}
+.jcenter ul li img {
+    transform-origin: 305px 150px;
+    transition: all 1s;
+}
+.jcenter:hover ul li img {
+    transform: scale(1.4)
+}
+.jcenter:hover .arrow-left,
+.jcenter:hover .arrow-right {
+    opacity: .6;
+}
+.jcenter .arrow-right:hover {
+    margin-right: -20px;
+    opacity: 1;
+}
+.jcenter .jcarrow .arrow-left:hover{
+    margin-left: -20px;
+    opacity: 1;
+}
+/* .jcenter .yuan {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 20px;
+}
+.jcenter .dian{
+    width: 18px;
+    height: 18px;
+    background-color: rgba(255,255,255,0.5);
+    border-radius: 50%;
+    float: left;
+    margin: 0 10px;
+}
+.jcenter .dian.red {
+    background-color: rgba(255,0,0,1);
+} */
+/* 中间banner 轮播图  结束 */
+/* 新闻板块 开始 */
+/* 新闻栏 */
+.main_fir .jright {
+    padding: 20px;
+    width: 345px;
+    height: 300px;
+    background-color: rgba(71, 71, 73, 0.5);
+    /* border: 4px solid #d8c9ad; */
+    margin-top: 130px;
+}
+/* 新闻栏标题 */
+.main_fir .jright .jrtitle ul {
+    width: 100%;
+    position: relative;
+    border-bottom: 1px solid #000;
+    height: 48px;
+} 
+.main_fir .jright .jrtitle li{
+    text-align: center;
+    line-height: 45px;
+    height: 45px;
+    width: 52px;
+    float: left;
+}
+.main_fir .jright .jrtitle .now {
+    border-bottom: 3px solid #f3c258;
+}
+.main_fir .jright .jrtitle .now a{
+    color: #f3c258;
+}
+.main_fir .jright .jrtitle li a {
+    color: #f7ebd6;
+    font-size: 16px;
+}
+/* 新闻栏内容页 开始*/
+.main_fir .jright .qie {
+    margin-top: 25px;
+    height: 192px;
+    position: relative;
+    overflow: hidden;
+}
+.main_fir .jright .qie .bigc {
+    width: 1525px;
+    height: 195px;
+    position: absolute;
+}
+.main_fir .jright .qie .c1{
+    width: 305px;
+    height: 192px;
+}
+.main_fir .jright .qie li {
+    height: 32px;
+    line-height: 32px;
+}
+.main_fir .jright .qie a{
+    float: left;
+    width: 240px;
+    font-size: 14px;
+    color: #f7ebd6;
+    box-sizing: border-box;
+    background: url(../img/tb.png) no-repeat 0px center;
+    background-size: 10%;
+    padding-left: 20px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    transition: 0.6s ease-in-out;
+}
+.main_fir .jright .qie span {
+    float: right;
+    color: #afaeaa;
+}
+.main_fir .jright .qie a:hover{
+    margin-left: 10px;
+}
+/* 新闻栏内容版块 结束 */
+/* 旋转的六面 开始*/
+.main_fir .six{
+    width: 100px; 
+    height: 100px;
+    list-style: none;
+    margin-top: 300px ;
+    transform-style: preserve-3d;
+    animation: dong 8s linear infinite;
+    position: absolute;
+    right: 83px;
+    top: -355px;
+}
+.main_fir .six li img {
+    width: 100px;
+    height: 100px;
+}
+.main_fir .six li {
+    border: 3px solid skyblue;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #000;
+}
+.main_fir .six li:nth-child(1) {
+    transform: rotateY(-120deg) translateZ(100px);
+}
+.main_fir .six li:nth-child(2) {
+    transform: rotateY(120deg) translateZ(100px);
+}
+.main_fir .six li:nth-child(3) {
+    transform: rotateY(60deg) translateZ(100px);
+}
+.main_fir .six li:nth-child(4) {
+    transform: rotateY(-60deg) translateZ(100px);
+}
+.main_fir .six li:nth-child(5) {
+    transform: translateZ(100px);
+}
+.main_fir .six li:nth-child(6) {
+    transform: translateZ(-100px);
+}
+.main_fir .six:hover {
+    animation-play-state: paused;
+}
+.main_fir .six:hover li img {
+    opacity: 0.5;
+}
+.main_fir .six li:hover img {
+    opacity: 1;
+}
+@keyframes dong {
+    from {
+        transform: rotateX(-15deg) rotateY(0)
+    }
+    to {
+        transform: rotateX(-15deg) rotateY(360deg)
+    }
+}
+.main_fir::before {
+    content: '';
+    width: 173px;
+    height: 157px;
+    background: url(../img/xin.png) no-repeat;
+    background-size: 50%;
+    position: absolute;
+    top: 0;
+    right: 100px;
+    animation: xin  4s linear infinite;
+}
+@keyframes xin {
+    0% {
+        transform: translate(0, 0);
+        opacity: 1;
+    }
+    50% {
+        transform: translate(300px,-800px);
+        opacity: 0;
+    }
+    100% {
+        transform: translate(60px, -1010px);
+        opacity: 0;
+    }
+}
+/* 主演内容第一部分 结束 */
+
+/* 主要内容第二部分 开始 */
+/* 旋转木马 */
+#slide li{
+    transition: all .4s;
+}
+.main_sec {
+    width: 1000px;
+    margin: 20px auto;
+  }
+  .main_sec .title {
+      background: url(../img/bt1.png) no-repeat;
+      background-size: contain;
+      width: 500px;
+      height: 100px;
+      margin: 0 auto;
+  }
+  .slide {
+    height: 500px;
+    position: relative;
+  }
+  
+  .slide li {
+    position: absolute;
+    left: 200px;
+    top: 0;
+    cursor: pointer;
+
+  }
+  
+  .slide li img {
+    width: 100%;
+  }
+  
+  .arrow {
+    opacity: 1;
+    position: relative;
+    z-index: 99;
+    top: 50%;
+  }
+  
+  .prev, .next {
+    width: 50px;
+    height: 124px;
+    position: absolute;
+    top: 50%;
+    margin-top: -56px;
+    background: url(../img/prev.png) no-repeat;
+    z-index: 99;
+  }
+  
+  .next {
+    right: 0;
+    background-image: url(../img/next.png);
+  }
+/* 第二部分结束 */
+
+/* shover */
+.main_thr {
+    width: 1120px;
+    margin: 200px auto;
+    height: 800px;
+}
+.main_thr .stitle {
+    background: url(../img/bt2.png) no-repeat center top;
+    background-size: 65%;
+    width: 500px;
+    height: 100px;
+    margin: 0 auto;
+}
+.main_thr  li{
+    float: left;
+    width: 260px;
+    height: 260px;
+    margin: 10px;
+}
+.main_thr  li img {
+    width: 260px;
+    height: 260px;
+}
+.main_thr li #intro1 {
+    padding: 50px 20px;
+    border-radius: 50%;
+    background-color: rgba(255, 51, 0, 0.8);
+    text-align: center;
+}
+.main_thr li #intro1 h2{
+    font-size: 24px;
+    font-weight: 700;
+    color: #fff;
+    line-height: 50px;
+}
+.main_thr li #intro1 p{
+    padding-top: 20px;
+    line-height: 24px;
+    border-top: 1px dashed #fff;
+    font-size: 12px;
+    color: rgba(243, 241, 151, 1);
+}
+.main_thr li #intro1 button {
+    font-size: 14px;
+    margin-top: 20px;
+    color: snow;
+    border-radius: 8px;
+    width: 60px;
+    height: 24px;
+    background-color: rgba(243, 241, 151, 0.7);
+}
+
+/* footer样式 */
+.footer{
+    font-family: '\5B8B\4F53';
+    font-size: 12px;
+    text-align: center;
+    font-size: 12px;
+    line-height: 19px;
+    color: #767676;
+    overflow: hidden;
+    background: #000000;
+    overflow: hidden;
+    padding: 20px 0;
+}
+.footer a {
+    color: #767676;
+}

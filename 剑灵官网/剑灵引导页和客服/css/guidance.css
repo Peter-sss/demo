@@ -1,0 +1,538 @@
+ .w {
+	width: 1000px;
+	margin:0 auto;
+ }
+
+
+ /*设置头部*/
+   .wrap {
+ 	border: 1px solid #ccc;
+ 	height: 40px;
+ 	background: #ffffff;
+  }
+
+
+.wrap .head .tx_game {
+	width: 230px;
+	height: 40px;
+	background: url(../images/top.jpg);
+	background-position: 0px -45px;
+}
+.wrap .head .tx {
+	width: 230px;
+	height: 40px;
+	background: url(../images/top.jpg);
+	background-position: 0px -87px;
+}
+.wrap .head ul li{
+	padding:0 5px;
+	height: 40px;
+	font: 12px 'Tahoma';
+	line-height: 40px;
+	text-align: center;
+}
+.wrap .head ul li a{
+	color:#000;
+}
+.wrap .head ul li a:hover{
+	color:#00ace9;
+}
+.wrap .head ul li a span{
+	color:#00ace9;
+	font-weight: 700;
+	margin-right: 5px;
+}
+.wrap .head ul li .last{
+	border: 1px solid #ccc;
+	padding: 2	px;
+	border-radius: 3px;
+}
+
+/*设置导航部分*/
+nav {
+	width: 100%;
+	height: 77px;
+	background: url(../images/spr.png) repeat-X;
+	background-position: 0 0;
+	overflow: hidden;
+	z-index: 99;
+}
+nav>.w>div {
+	height: 77px;
+	background: url(../images/spr.png);
+}
+nav>.w>.logo{
+	width: 133px;
+	background-position: 0 -233px;
+}
+nav>.w>.enter{
+	width: 194px;
+	cursor: pointer;
+	background-position: 0 -79px;
+}
+/*honver 的时候会变色*/
+nav>.w>.enter:hover{
+	background-position: 0 -156px;
+}
+nav>.w>ul>li{
+	float: left;
+	height: 77px;
+	cursor: pointer;
+	background: url(../images/btns.jpg);
+
+}
+nav>.w>ul>li:nth-child(1){
+	width: 100px;
+	height: 77px;
+	background-position: 0 0;
+}
+/*hover变色*/
+nav>.w>ul>li:nth-child(1):hover {
+	background-position: 0 -77px;
+}
+
+nav>.w>ul>li:nth-child(2){
+	width: 117px;
+	height: 77px;
+	background-position: -102px 0;
+}
+/*hover变色*/
+nav>.w>ul>li:nth-child(2):hover {
+	background-position: -102px -77px;
+}
+
+nav>.w>ul>li:nth-child(3){
+	width: 121px;
+	background-position: -218px 0;
+}
+/*hover变色*/
+nav>.w>ul>li:nth-child(3):hover {
+	background-position: -218px -77px;
+}
+
+nav>.w>ul>li:nth-child(4){
+	width: 105px;
+	background-position: -339px 0;
+}
+/*hover变色*/
+nav>.w>ul>li:nth-child(4):hover {
+	background-position: -339px -77px;
+}
+
+nav>.w>ul>li:nth-child(5){
+	width: 121px;
+	background-position: -443px 0;
+}
+/*hover变色*/
+nav>.w>ul>li:nth-child(5):hover {
+	background-position: -443px -77px;
+}
+
+/*<!-- 设置主体部分 -->*/
+.main{
+	height: 1750px;
+	background: url(../images/bg.jpg);
+}
+
+.container>p {
+	border-top: 1px dashed #ccc;
+	height: 20px;
+	background: rgba(0,0,0,.4);
+	text-align: center;
+	color:#ccc;
+	font-size: 12px;
+	line-height: 20px;
+}
+.container>p span{
+	margin:0 20px;
+}
+
+/*超级觉醒部分*/
+.container .one{
+	width: 582px;
+	height: 180px;
+	margin-top: 120px;
+	background: url(../images/slogan.png);
+	animation: run1 .5s .5s ease both;
+}
+
+/*动画效果*/
+
+@keyframes run1{
+	0% {
+		opacity: 0;
+		transform: translateY(-150px);
+	}
+	25% {
+		opacity: .5;
+		transform: translateY(0);
+	}			
+	50% {
+		opacity: 1;
+		transform: translateY(30px);
+	}
+	75% {
+		opacity: .5;
+		transform: translateY(-20px);
+	}			
+	100%{
+		opacity: 1;
+		transform: translateY(0);
+	}
+}	
+
+
+
+
+.container .two {
+	margin-top: 30px;
+	width: 582px;
+	height: 108px;
+	background: url(../images/slogan01.png);
+	position: relative;
+	animation: run2 .5s .5s ease both;
+}
+
+@keyframes run2{
+	0% {
+		opacity: 0;
+		transform: translateY(150px);
+	}
+	25% {
+		opacity: .5;
+		transform: translateY(0);
+	}			
+	50% {
+		opacity: 1;
+		transform: translateY(-30px);
+	}
+	75% {
+		opacity: .5;
+		transform: translateY(20px);
+	}			
+	100%{
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+.container .two .video{
+	/*display: block;*/
+	/*cursor: pointer;*/
+	width: 54px;
+	height: 63px;
+	background: url(../images/sp.png);
+	background-position: -528px -35px;
+	position: absolute;
+	left: 51%;
+	transform: translateX(-50%);
+	top: -20px;
+}
+/*
+/*当点击这个按钮的时候会播放视频*/
+/*.container .two #video {
+	width: 500px;
+	height: 400px;
+	background: url(../images/1.gif) no-repeat;
+	display: none;
+	position: fixed;
+	left: -220px;
+	top: -160px;
+}*/*/
+
+
+
+.container .three{
+	height: 53px;
+	margin-top: 70px;
+}
+.container .three>a{
+	width: 195px;
+	height: 53px;
+	cursor: pointer;
+	display: block;
+	margin-right: 20px;
+	background: url(../images/sp.png);
+}
+.container .three .left{
+	background-position: -224px -230px;
+}
+/*hover变色*/
+.container .three .left:hover{
+	background-position: -224px -166px;
+}
+.container .three .center{
+	background-position: -436px -230px;
+}
+/*hover变色*/
+.container .three .center:hover{
+	background-position: -436px -166px;
+}
+.container .three .right{
+	background-position: -647px -230px;
+}
+/*hover变色*/
+.container .three .right:hover{
+	background-position: -647px -166px;
+}
+
+/*好礼*/
+.container .four{
+	height: 376px;
+	margin-top: 70px;
+}
+.container .four>div{
+	width: 320px;
+	height: 376px;
+	background: url(../images/sp.png);	
+}
+.container .four>.left{
+	margin-right: 20px;
+	background-position: 0px -915px;
+}
+/*三个小图片的宽高*/
+.container .four>.left>div,
+ .container .four>.center>div,
+ .container .four>.right>div{
+	width: 84px;
+	height: 90px;
+	margin: 120px 11px 0;
+}
+.container .four>.left>div>p,
+.container .four>.center>div>p,
+.container .four>.right>div>p{
+	text-align: center;
+	color:#ccc;
+	font-size: 12px;
+}
+.container .four>.center p span{
+	color: yellow;
+}
+.container .four>.left>div>a,
+.container .four>.center>div>a,
+.container .four>.right>div>a{
+	width:176px;
+	height: 48px;
+	display: block;
+	background: url(../images/sp.png);
+	background-position: -239px -330px;
+	margin: 50px 55px;
+}
+
+/*hover的时候会变色*/
+.container .four>.left>div>a:hover,
+.container .four>.center>div>a:hover,
+.container .four>.right>div>a:hover{
+	background-position: -444px -330px;
+}
+.container .four>.center{
+	margin-right: 20px;
+	background-position: -341px -915px;
+}
+.container .four>.right{
+	background-position: -681px -915px;
+}
+
+/*下面活动*/
+.main ul li a:nth-child(1){
+	width: 118px;
+	height: 380px;
+	display: block;
+	background: url(../images/sp.png);
+}
+.main ul {
+	margin-top: 140px;
+}
+.main ul li {
+	width: 118px;
+	height: 438px;
+	margin-right: 29px;
+	float: left;
+	position: relative;
+}
+.main ul li:last-child {
+	margin-right: 0px;
+}
+.main ul li a:nth-child(2){
+	margin-top: 400px;
+	margin-left: 8px;
+	width: 102px;
+	height: 38px;
+	display: block;
+	background: url(../images/sp.png);
+	background-position:-411px -417px;
+}
+.main ul li a:nth-child(2):hover{
+	background-position:-282px -418px;	
+}
+.main ul li:nth-child(1) a:nth-child(1){
+	background-position:0 -501px ;
+}
+
+.main ul li:nth-child(2) a:nth-child(1){
+	background-position:-148px -501px;
+}
+.main ul li:nth-child(3) a:nth-child(1){
+	background-position:-296px -501px;
+}
+.main ul li:nth-child(4) a:nth-child(1){
+	background-position:-441px -501px;
+}
+.main ul li:nth-child(5) a:nth-child(1){
+	background-position:-589px -501px;
+}
+.main ul li:nth-child(6) a:nth-child(1){
+	background-position:-736px -501px;
+}
+.main ul li:nth-child(7) a:nth-child(1){
+	background-position:-883px -501px;
+}
+.main ul li:nth-child(7) a:nth-child(2){
+	background-position:-548px -416px;
+}
+.main ul li:nth-child(7) a:nth-child(2):hover{
+	background-position:-282px -418px;
+}
+/*给7张图定位. 方便改top值*/
+.main ul li a:first-child{
+	position: absolute;
+	top: 0;
+	left:0;
+}
+/*定义一个动画, 让这七张图上下动*/
+@keyframes run {
+	0 {
+		top: 0;
+	}
+	20%{
+		top: -20px;
+	}
+	40%{
+		top: -10px;
+	}	
+	60%{
+	    top: 0px;
+	}
+	80%{
+		top:10px;
+	}
+	100%{
+		top: 0px;
+	}
+}
+
+.main ul li:nth-child(2n) a:first-child{
+	animation: run 2s 1s linear infinite;
+}
+.main ul li:nth-child(2n+1) a:first-child{
+	animation: run 2s 0s linear infinite;
+}
+
+/*设置底部*/
+.link {
+	height: 165px;
+	background: #000;
+	padding: 20px;
+	color:#a5a5a5;
+	font-size: 12px;
+}
+.link>div{
+	height: 165px;
+	padding: 0 10px;
+	/*background: #f99;*/
+}
+.link>div>.left{
+	width: 180px;
+	margin-top: 70px;
+	height: 35px;
+	float: left;
+	background: url(../images/spr00001.png) no-repeat;
+	background-position: 0 -595px;
+}
+.link>div>.right{
+	width: 126px;
+	margin-top: 70px;
+	height: 32px;
+	float: left;
+	background: url(../images/spr00001.png) no-repeat;
+	background-position: 0 -628px;
+}
+.link .bottom{
+	margin-left:30px; 	
+}
+.link>div ul li{
+	margin-top: 40px;
+	float: left;
+	font-size: 12px;
+	color:#494949;
+	margin-bottom: 5px;
+}
+.link>div ul li>a{
+	color:#a5a5a5;
+	margin:0 6px;
+}
+.link>div ul li>a:first-child{
+	margin-left:0px;
+}
+.link div>p{
+	margin:5px 0;
+}
+.link div>a {
+	color:#a5a5a5;
+}
+.link .call {
+	margin-top:5px;
+}
+.link .call span {
+	width: 13px;
+	height: 15px;
+	background: url(../images/icplogo.png) no-repeat;
+	display: inline-block;
+	margin-top:5px;
+	vertical-align: bottom;
+	/*text-align: top;*/
+}
+/*右侧定位*/
+.fixed{
+	width:178px;
+	height: 469px;
+	padding:0 34px;
+	background: url(../images/sp.png) no-repeat;
+	position: fixed;
+	right: 0;
+	top: 150px;
+}
+.fixed .erweima{
+	width: 110px;
+	height: 115px;
+	text-align: center;
+	margin-top: 100px;
+	line-height: 200px;
+}
+.fixed a {
+	height:40px;
+	margin-left: 30px;
+	color:#f5f5f5;
+	display: block;
+	font-size: 12px;
+}
+.fixed a:hover{
+	color:#c0bd95;
+}
+.fixed a:nth-child(3){
+	height:45px;
+}
+.fixed a:nth-child(4){
+	height:55px;
+}
+.fixed .first{
+	margin-top: 20px;
+}
+.fixed .top{
+	width: 32px;
+	height: 34px;
+	display: block;
+	cursor: pointer;
+	background: url(../images/sp.png);
+	background-position: -635px -54px;
+	margin-left: 40px;
+}

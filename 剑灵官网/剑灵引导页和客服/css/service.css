@@ -1,0 +1,302 @@
+body{
+	background: #f5F5F5;
+}
+
+/*设置头部*/
+.bg{
+	background: #fff;
+}
+.tx_head{
+	height: 75px;
+}
+.tx_head .logo{
+	width: 229px;
+	height: 75px;
+	background: url(../images/logo.png) no-repeat left center;
+}
+
+.tx_head .login_btn{
+	width: 60px;
+	height: 30px;
+	float:right;
+	margin-top: 23px;
+	margin-right:-10px;
+	position: relative;
+}
+.tx_head .login_btn input{
+	width: 60px;
+	height: 30px;
+	outline: none;
+	border: 1px solid #00ace9;
+	border-radius: 3px;
+	background: #00ace9;
+	color: #fff;
+}
+
+.tx_head .login_btn .login_in {
+	width: 400px;
+	height: 347px;
+	border: 1px solid #ccc;
+	position: absolute;
+	left:-700px;
+	top: 200px;
+	z-index: 99;
+	background: #fff;
+	display: none;
+}
+.tx_head .login_btn .login_in #closed {
+	width: 40px;
+	height: 20px;
+	text-align: center;
+	color:#ccc;
+	cursor: default;
+	border-left: 1px solid #ccc;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+.tx_head .login_btn .login_in #closed:hover{
+	background: red;
+}
+.tx_head .login_btn .login_in h4{
+	margin:20px 0;
+	color:#333;
+	font-size: 20px;
+	text-align: center;
+}
+.tx_head .login_btn .login_in p {
+	text-align: center;
+}
+
+.tx_head .login_btn .login_in .erweima{
+	width: 110px;
+	height: 110px;
+	margin: 40px auto;
+	border: 1px solid #000;
+	background: url(../images/qq_code.png) no-repeat center center;
+}
+.tx_head .login_btn .login_in ul li{
+	float: right;
+	margin: 20px 5px;
+	font-size: 12px;
+}
+.tx_head .login_btn .login_in ul li a{
+	font-size: 12px;
+	color: #000;
+}
+.tx_head .login_btn .login_in ul li a:hover{
+	text-decoration: underline;
+}
+
+/*设置主体*/
+.tx_main {
+	margin-top: 20px;
+}
+	/*左边导航*/
+.tx_nav{
+	width: 230px;
+	height: 500px;
+	border: 1px solid #ccc;
+}
+
+.tx_nav div{
+	height: 100px;
+	width: 220px;
+	margin-left: 5px;
+	background: url(../images/8fd4915598a0d2646dc8d9ff360cdd82.png);
+}
+.tx_nav ul li{
+	width: 100%;
+	height: 40px;
+	line-height: 40px;
+	border-top: 1px solid #f9f9f9;
+}
+.tx_nav ul li:last-child{
+	border-bottom: 1px solid #f9f9f9;
+}
+.tx_nav ul li a {
+		margin-left: 30px;
+		color: #000;
+}
+.tx_nav ul li:hover a {
+	color: #00ace9;
+}
+/*自助查询*/
+
+.lis1 .self{
+	margin-top: 30px;
+	margin-bottom: 30px;
+	font-size: 20px;
+}
+.lis1 .sec-num {
+	width: 112px;
+	height: 39px;
+	line-height: 39px;
+	color:#00ace9;
+	text-align: center;
+	display: block;
+	border: 1px solid #00ace9;
+	border-radius: 3px;
+}
+.lis1 .sec-num:hover{
+	background: #cfeeff;
+}
+
+.tx_main .right{
+	width: 845px;
+}
+
+.tx_main .right .sec{
+	width: 845px;
+	height: 100px;
+	line-height: 100px;
+	border-bottom: 1px solid #f5f5f5;
+	vertical-align: middle;
+	position: relative;
+}
+.tx_main .right .sec input{
+	width: 655px;
+	height: 40px;
+	border: 1px solid #ccc;
+	box-sizing: border-box;
+	text-indent: 15px;
+	margin-left: 50px;
+	vertical-align: middle;
+
+}
+.tx_main .right .sec button{
+	width: 45px;
+	height: 40px;
+	background: #00ace9;
+	outline: none;
+	display: inline-block;
+	border: none;
+	margin-left: -5px;
+	vertical-align: middle;
+}
+.tx_main .right .sec::before{
+	content: '';
+	width: 20px;
+	height: 20px;
+	background: url(../images/search.png);
+	background-size: 100%;
+	color: #fff;
+	display: inline-block;
+	position: absolute;
+	right: 107px;
+	top: 40px;
+}
+	/*设置问题列表*/
+.tx_main .tx_all{
+	padding: 30px 50px;
+}
+.opened{
+	display: block;
+}
+.tx_main .tx_all li {
+	line-height: 30px;
+	text-align: left;
+	margin-bottom: 5px;
+}
+
+.tx_main .tx_all li a {
+	color: #000;
+}
+.tx_main .tx_all li a:hover {
+	color: #00ace9;
+}
+
+.tx_main .tx_all div{
+	display: none;
+}
+.tx_main .tx_all .opened{
+	display: block;
+}
+
+
+/*设置下面底部*/
+.link{
+	margin-top: 50px;
+	padding-top: 20px;
+	box-sizing: border-box;
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+}
+
+footer ul li {
+	height: 40px;
+	width: 20%;
+	float: left;
+	text-align: center;
+	vertical-align: middle;
+}
+footer ul li .one{
+	width: 40px;
+	height: 40px;
+	display: inline-block;
+	background: url(../images/icon-service.png);
+}
+footer ul li .two{
+	width: 40px;
+	height: 40px;
+	display: inline-block;
+	background: url(../images/icon-money.png);
+}
+footer ul li .three{
+	width: 40px;
+	height: 40px;
+	display: inline-block;
+	background: url(../images/icon-weipay.png);
+}
+footer ul li .four{
+	width: 40px;
+	height: 40px;
+	display: inline-block;
+	background: url(../images/icon-teenager.png);
+}
+footer ul li .five{
+	width: 40px;
+	height: 40px;
+	display: inline-block;
+	background: url(../images/icon-consult.png);
+}
+footer i{
+	font-style: normal;
+	font-size: 12px;
+	vertical-align: middle;
+	display: inline-block;
+	text-align: left;
+}
+ footer p{
+	font-size: 12px;
+	line-height: 25px;
+	text-align: center;
+}
+footer div{
+	margin-top: 30px;
+	text-align: center;
+	font-size: 12px;
+}
+
+footer div a {
+	color: #000;
+}
+
+footer p{
+	margin-bottom: 20px;
+}
+
+.tx_ma{
+	width: 100px;
+	height: 155px;
+	border: 1px solid #ccc;
+	padding: 10px 10px;
+	text-align: center;
+	font-size: 14px;
+	position: fixed;
+	right: 50px;
+	top: 300px;
+}
+.tx_ma p{
+	margin-top: 10px;
+}

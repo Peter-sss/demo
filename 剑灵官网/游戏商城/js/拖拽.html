@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        div {
+            width: 200px;
+            height: 200px;
+            position: absolute;
+            cursor: move;
+            user-select: none;
+        }
+
+        .one {
+            background-color: red;
+        }
+
+        .two {
+            background-color: yellow;
+            left: 200px;
+            top: 500px;
+
+        }
+
+        a {
+            width: 100%;
+            height: 90%;
+            float: left;
+            background-color: yellow;
+        }
+    </style>
+</head>
+
+<body style="height: 10000px;">
+    <div class="one"><a href="#">11</a></div>
+    <div class="two"><a href="#">22</a></div>
+
+
+    <script src="./jquery-1.12.4.min.js"></script>
+    <!-- <script src="./base.js"></script> -->
+    <script>
+        // var as = document.querySelectorAll("div a");
+        // var divs = document.querySelectorAll("div");
+        // for (var i = 0; i < divs.length; i++) {
+        //     divs[i].onmousedown = function (e) {
+        //         // 运动函数中没有了鼠标按下事件，所以就没有了事件对象，要在此处传事件对象
+        //         // 定义一个变量接收
+        //         var beforeX = this.offsetLeft;
+        //         var beforeY = this.offsetTop;
+        //         // var _e = e;
+        //         var _this = this;
+        //         console.log(this);
+        //         var disX = e.pageX - this.offsetLeft;
+        //         var disY = e.pageY - this.offsetTop;
+        //         document.onmousemove = function (e) {
+        //             // console.log(x, y)
+        //             _this.style.left = e.pageX - disX + "px";
+        //             _this.style.top = e.pageY - disY + "px";
+        //         }
+        //         document.onmouseup = function () {
+        //             // console.log(x, y)
+        //             document.onmousemove = null;
+
+        //             $(_this).animate({
+        //                 left: beforeX,
+        //                 top: beforeY
+        //             }, function () {
+        //                 // console.log("回去了 ")
+
+        //                 // obj.style.transitionDuration = "1s";
+        //             })
+
+        //             // return false;
+        //         }
+        //         // }
+        //         return false;
+        //     }
+        //     // return false;
+        // }
+        var as = document.querySelectorAll("div a");
+        var divs = document.querySelectorAll("div");
+        for (var i = 0; i < divs.length; i++) {
+            Drag(divs[i]);
+        }
+
+
+        function Drag(obj) {
+            var beforeX = obj.offsetLeft;
+            var beforeY = obj.offsetTop;
+            console.log(beforeX, beforeY);
+            obj.onmousedown = function (e) {
+                var disX = e.pageX - obj.offsetLeft;
+                var disY = e.pageY - obj.offsetTop;
+                document.onmousemove = function (e) {
+                    obj.style.left = e.pageX - disX + "px";
+                    obj.style.top = e.pageY - disY + "px";
+                }
+                document.onmouseup = function () {
+                    document.onmousemove = null;
+                    $(obj).animate({
+                        left: beforeX,
+                        top: beforeY
+                    })
+                }
+                return false;
+            }
+        }
+
+        function move(obj, e, x, y) {
+            // console.log(obj);
+            // 调用运动的条件是obj鼠标按下的时候 所以这里的按下就不需要了，要不然鼠标需要再次按下才能执行运动函数
+            // obj.onmousedown = function (e) {
+            // console.log(x, y)
+            // var disX = e.pageX - obj.offsetLeft;
+            // var disY = e.pageY - obj.offsetTop;
+            // document.onmousemove = function (e) {
+            //     console.log(x, y)
+            //     obj.style.left = e.pageX - disX + "px";
+            //     obj.style.top = e.pageY - disY + "px";
+            // }
+            // document.onmouseup = function () {
+            //     console.log(x, y)
+            //     document.onmousemove = null;
+
+            //     $(obj).animate({
+            //         left: x,
+            //         top: y
+            //     }, function () {
+            //         // console.log("回去了 ")
+
+            //         // obj.style.transitionDuration = "1s";
+            //     })
+
+            //     // return false;
+            // }
+            // // }
+        }
+    </script>
+</body>
+
+</html>

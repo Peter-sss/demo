@@ -1,0 +1,62 @@
+/*--------------------------初始化代码*/
+/*清除默认的margin和padding*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/*清除小圆点*/
+ul,ol {
+  list-style: none;
+}
+
+/*清除a标签默认的下划线*/
+a {
+  text-decoration: none;
+}
+
+/*表格边框合并*/
+table {
+  border-collapse: collapse;
+}
+
+/*去除input标签点击之后的出现的轮廓线*/
+input {
+  outline-style: none;
+  
+}
+
+/*禁止textarea标签的自由缩放*/
+textarea {
+  resize: none;
+}
+
+/*双伪元素清除法（清除浮动和解决塌陷，给父元素加）*/
+.clearfix::before,
+.clearfix::after {
+  content: "";
+  display: table;
+}
+.clearfix::after {
+  clear: both;
+}
+/* 兼容 IE 67 */
+.clearfix {
+  *zoom: 1;
+}
+
+/*左浮动*/
+.fl {
+  float: left;
+}
+
+/*右浮动*/
+.fr {
+  float: right;
+}
+
+/*版心*/
+.w {
+  width: 1100px;
+  margin: 0 auto;
+}

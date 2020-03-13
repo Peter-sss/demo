@@ -1,0 +1,138 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=7" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="Keywords"
+	content=" qq客服，qq在线客服，qq客服中心，qq客服网站，qq客服在线，qq腾讯客服，qq客服电话，腾讯客服qq，腾讯客服，腾讯客服网站，腾讯客服首页，腾讯客服官网，腾讯官网客服，腾讯客服中心，腾讯客户服务，腾讯客服电话" />
+<meta name="description"
+	content="腾讯客服官网网站，为您解决使用腾讯产品过程中遇到的问题，腾讯客服中心提醒您：谨防网络骗术，教您如何识别网络骗术" />
+<meta http-equiv="Content-Language" content="zh-cn" />
+<meta name="robots" content="all" />
+<meta name="author" content="Tencent-OUI" />
+<meta name="Copyright" content="Tencent" />
+<title>腾讯客服 - 您所访问的页面不存在</title>
+<link rel="stylesheet" rev="stylesheet" href="http://imgcache.qq.com/bossweb/service/v4/css/index_x5.css" type="text/css" media="screen"/>
+</head>
+<body>
+<!--顶部工具、信息条-begin-->
+<div class="kf_mod_top_bar" role="navigation">
+    <div class="bar_in">
+        <div class="kf_mod_location" id="back_nav">
+            <a href="http://kf.qq.com">首页</a><span class="sign_next">&gt;</span><span class="location_now" id="nav_second"></span>
+        </div>
+        <div class="log_info" id="loginTitle">
+            <a href="javascript:;" class="query_records" onclick="KF.com.toServerList()">服务记录查询</a>
+            <span class="line"></span>
+            <a href="javascript:;" class="notice" id="announce_id"><i class="icon icon_notice_2"></i></a>
+            <!--公告下拉浮层-start-->
+            <ul class="slide_notice" style="display: none" id="announce_static_page"></ul>
+            <!--公告下拉浮层-end-->
+            <span class="line"></span>
+            <a href="http://110.qq.com?source_id=2915" class="defend bg_orange" onclick="pgvSendClick({ hottag: 'KF.SERVICE.X5.CLICK_110'});" target="_blank"><i class="icon icon_defend"></i>反诈骗中心</a>
+        </div>
+    </div>
+</div>
+<!--顶部工具、信息条-end-->
+<div id="login_div" style="position: absolute; display: none; width: 342px; height: 318px; padding: 0; margin: 0px; z-index: 1000;" align="center">
+    <iframe name="login_frame" id="login_frame" frameborder="0" scrolling="auto" width="100%" height="100%" src=""></iframe>
+</div>
+<!-- 登录模块 -->
+<!--重大公告--begin-->
+<div class="kf_mod_anon" id="em_container" style="display: none;">
+    <div class="container">
+        <h2 class="title font_red" id="em_title"></h2>
+        <div class="content" style="display: none;" id="em_content">
+            <!-- <h4 id="em_content_to">尊敬的腾讯用户：</h4> -->
+            <p id="em_content_body"></p>
+            <!-- <div class="sign" id="em_content_sign"></div> -->
+        </div>
+        <div class="op_pg" id="em_pg">
+            <a href="javascript:KF.com.toggle_single_announce()" class="op fold_down" id="em_more">收起</a>
+        </div>
+    </div>
+</div>
+<!--重大公告--end-->
+<!--首页头部-begin-->
+<header>
+    <div class="header_container">
+        <div class="kf_mod_header">
+            <h1 class="logo" title="点击返回客服官网首页">
+                <a href="http://kf.qq.com/">
+                    <img src="http://imgcache.qq.com/bossweb/service/v4/images/logo_x5.png" width="261" height="75" alt="腾讯客服官网LOGO" /></a>
+            </h1>
+            <div class="search_form" role="search">
+                <!-- <form action="" method="get" role="search"> -->
+                <span class="tx_search_box">
+                    <input id="kf_search_key" searchsuggest="true" autocomplete="off" type="text" class="tx_search" accesskey="/" autocomplete="off" value="请输入产品或问题" onfocus="KF.search.focus(this)" onclick="KF.search.click(this)" onblur="KF.search.blur(this)" onkeydown="KF.search.keydown(event)" /></span><button class="btn_search" onclick="KF.search.handleSearch(this)">搜索</button>
+                <!-- </form> -->
+                <input id="kf_search_key_hidden" type="hidden" />
+                <div id="kf_search_key_suggest" class="kf_mod_search_associate" style="width:290px;left:16px;display:none;">
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+<!--首页头部-end-->
+
+<!--main-->
+<script type="text/javascript" src="http://www.qq.com/404/search_children.js" charset="utf-8"></script>
+<!--footer-->
+    <!--全站通用页脚-begin-->
+<!--全站通用页脚-begin-->
+    <footer>
+    	<div class="footer_container" role="contentinfo">
+            <div class="phone">
+                <ul>
+                    <li class="noborder_l">
+                        <p><a href="javascript:void(0)" title="0755-83765566" >帐号安全专线：0755-83765566</a></p>
+                        <p><a href="javascript:void(0)" title="0755-86013666" >电脑游戏专线：0755-86013666</a></p>
+
+                    </li>
+                    <li>
+                        <p><a href="javascript:void(0)" title="0755-86013860">财付通专线：0755-86013860</a></p>
+                        <p><a href="javascript:void(0)" title="0755-83768788">公众平台：0755-83768788</a></p>
+                    </li>
+                    <li class="noborder_r">
+                        <p><a href="javascript:void(0)" title="95017">微信支付专线：95017</a></p>
+                        <p><a href="javascript:void(0)" title="0755-83763333">社交软件热线：0755-83763333</a></p>
+                    </li>
+                </ul>
+            </div>
+        	<div class="kf_mod_footer">
+            	<p><a href="http://www.tencent.com" target="_blank">关于腾讯</a><span>|</span>
+            	<a href="http://www.tencent.com/index_e.shtml" target="_blank">About Tencent</a><span>|</span>
+            	<a href="http://www.qq.com/contract.shtml"  target="_blank">服务条款</a><span>|</span>
+            	<a href="http://adver.qq.com" target="_blank">广告服务</a><span>|</span>
+            	<a href="/other/sitemap.shtml" target="_blank">网站地图</a><span>|</span>
+            	<a href="/hr/service_hr.shtml" target="_blank">客服招聘</a></p>
+                <p>Copyright © 1998 - 2015 Tencent. All Rights Reserved.   腾讯公司 版权所有    粤网文[2011]0483-070号</p>
+            </div>
+        </div>
+    </footer>
+    <!--全站通用页脚-end-->
+    <script type="text/javascript" src="/js/common.js"></script>
+    <script type="text/javascript" src="/js/login_v4.js"></script>
+    <script type="text/javascript" src="/js/functions.js"></script>
+<script type="text/javascript" src="/js/header.js"></script>
+<script type="text/javascript" src="/js/xmlDeal.js"></script>
+<script type="text/javascript" src="/js/ajaxDeal.js"></script>
+<script type="text/javascript" src="http://imgcache.qq.com/bossweb/service/js/jquery-1.9.1.min.js"></script>
+<script type="text/javascript" src="http://pingjs.qq.com/tcss.ping.js"></script>
+<script type="text/javascript" src="/static/js/kf_login.js"></script>
+<script type="text/javascript" src="/static/js/kf_announce.js"></script>
+<script type="text/javascript" src="/static/js/kf_imc_dialog.js"></script>
+<script type="text/javascript" src="/static/js/kf_fast_diagnosis.js"></script>
+<script type="text/javascript" src="/static/js/kf_search.js"></script>
+<script>
+document.domain = 'qq.com';
+ KF.com.init(); 
+ KF.com.announce();
+ if(typeof(pgvMain) == 'function'){
+		pgvMain();
+}
+</script>   
+    <!--全站通用页脚-end-->
+</body>
+</html>
